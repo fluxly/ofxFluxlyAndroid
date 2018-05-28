@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/build/intermediates/res/merged/arm7/debug/layout/main.xml",
+        "source": "/Users/as220/_openFrameworksAndroid/addons/ofxAndroid/ofAndroidLib/build/intermediates/bundles/default/res/layout/main.xml"
+    },
+    {
+        "merged": "/Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/build/intermediates/res/merged/arm7/debug/layout/main_layout.xml",
+        "source": "/Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/res/layout/main_layout.xml"
+    }
+]

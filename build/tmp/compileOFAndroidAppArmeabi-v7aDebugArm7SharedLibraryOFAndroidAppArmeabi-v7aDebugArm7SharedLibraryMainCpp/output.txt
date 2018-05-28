@@ -1,0 +1,193 @@
+See file:///Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/build/tmp/compileOFAndroidAppArmeabi-v7aDebugArm7SharedLibraryOFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/output.txt for all output for compileOFAndroidAppArmeabi-v7aDebugArm7SharedLibraryOFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp.
+compiling ofApp.cpp successful.
+In file included from <built-in>:372:
+<command line>:9:9: warning: 'HAVE_UNISTD_H' macro redefined [-Wmacro-redefined]
+#define HAVE_UNISTD_H -DUSEAPI_DUMMY -DPD -DLIBPD_EXTRA -DLIBPD_USE_STD_MUTEX 1
+        ^
+<command line>:5:9: note: previous definition is here
+#define HAVE_UNISTD_H 1
+        ^
+In file included from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/src/ofApp.cpp:1:
+In file included from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/src/ofApp.h:4:
+In file included from /Users/as220/_openFrameworksAndroid/addons/ofxBox2d/src/ofxBox2d.h:7:
+/Users/as220/_openFrameworksAndroid/addons/ofxBox2d/src/ofxBox2dCircle.h:33:7: warning: 'ofxBox2dCircle::addRepulsionForce' hides overloaded virtual function [-Woverloaded-virtual]
+        void addRepulsionForce(float x, float y, float amt);
+             ^
+/Users/as220/_openFrameworksAndroid/addons/ofxBox2d/src/ofxBox2dBaseShape.h:98:15: note: hidden overloaded virtual function 'ofxBox2dBaseShape::addRepulsionForce' declared here: type mismatch at 1st parameter ('ofVec2f' vs 'float')
+        virtual void addRepulsionForce(ofVec2f pt, float radius, float amt);
+                     ^
+In file included from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/src/ofApp.cpp:1:
+In file included from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/src/ofApp.h:4:
+In file included from /Users/as220/_openFrameworksAndroid/addons/ofxBox2d/src/ofxBox2d.h:7:
+/Users/as220/_openFrameworksAndroid/addons/ofxBox2d/src/ofxBox2dCircle.h:34:7: warning: 'ofxBox2dCircle::addRepulsionForce' hides overloaded virtual function [-Woverloaded-virtual]
+        void addRepulsionForce(ofVec2f pt, float amt);
+             ^
+/Users/as220/_openFrameworksAndroid/addons/ofxBox2d/src/ofxBox2dBaseShape.h:98:15: note: hidden overloaded virtual function 'ofxBox2dBaseShape::addRepulsionForce' declared here: different number of parameters (3 vs 2)
+        virtual void addRepulsionForce(ofVec2f pt, float radius, float amt);
+                     ^
+In file included from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/src/ofApp.cpp:1:
+In file included from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/src/ofApp.h:4:
+In file included from /Users/as220/_openFrameworksAndroid/addons/ofxBox2d/src/ofxBox2d.h:8:
+/Users/as220/_openFrameworksAndroid/addons/ofxBox2d/src/ofxBox2dPolygon.h:50:7: warning: 'ofxBox2dPolygon::addRepulsionForce' hides overloaded virtual function [-Woverloaded-virtual]
+        void addRepulsionForce(float x, float y, float amt);
+             ^
+/Users/as220/_openFrameworksAndroid/addons/ofxBox2d/src/ofxBox2dBaseShape.h:98:15: note: hidden overloaded virtual function 'ofxBox2dBaseShape::addRepulsionForce' declared here: type mismatch at 1st parameter ('ofVec2f' vs 'float')
+        virtual void addRepulsionForce(ofVec2f pt, float radius, float amt);
+                     ^
+In file included from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/src/ofApp.cpp:1:
+In file included from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/src/ofApp.h:4:
+In file included from /Users/as220/_openFrameworksAndroid/addons/ofxBox2d/src/ofxBox2d.h:8:
+/Users/as220/_openFrameworksAndroid/addons/ofxBox2d/src/ofxBox2dPolygon.h:51:7: warning: 'ofxBox2dPolygon::addRepulsionForce' hides overloaded virtual function [-Woverloaded-virtual]
+        void addRepulsionForce(ofVec2f pt, float amt);
+             ^
+/Users/as220/_openFrameworksAndroid/addons/ofxBox2d/src/ofxBox2dBaseShape.h:98:15: note: hidden overloaded virtual function 'ofxBox2dBaseShape::addRepulsionForce' declared here: different number of parameters (3 vs 2)
+        virtual void addRepulsionForce(ofVec2f pt, float radius, float amt);
+                     ^
+In file included from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/src/ofApp.cpp:1:
+In file included from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/src/ofApp.h:4:
+In file included from /Users/as220/_openFrameworksAndroid/addons/ofxBox2d/src/ofxBox2d.h:8:
+/Users/as220/_openFrameworksAndroid/addons/ofxBox2d/src/ofxBox2dPolygon.h:54:7: warning: 'ofxBox2dPolygon::create' hides overloaded virtual function [-Woverloaded-virtual]
+        void create(b2World * b2dworld);
+             ^
+/Users/as220/_openFrameworksAndroid/addons/ofxBox2d/src/ofxBox2dBaseShape.h:38:15: note: hidden overloaded virtual function 'ofxBox2dBaseShape::create' declared here: different number of parameters (0 vs 1)
+        virtual void create();
+                     ^
+In file included from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/src/ofApp.cpp:1:
+In file included from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/src/ofApp.h:4:
+In file included from /Users/as220/_openFrameworksAndroid/addons/ofxBox2d/src/ofxBox2d.h:9:
+/Users/as220/_openFrameworksAndroid/addons/ofxBox2d/src/ofxBox2dEdge.h:29:10: warning: 'ofxBox2dEdge::create' hides overloaded virtual function [-Woverloaded-virtual]
+    void create(b2World * b2dworld);
+         ^
+/Users/as220/_openFrameworksAndroid/addons/ofxBox2d/src/ofxBox2dBaseShape.h:38:15: note: hidden overloaded virtual function 'ofxBox2dBaseShape::create' declared here: different number of parameters (0 vs 1)
+        virtual void create();
+                     ^
+In file included from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/src/ofApp.cpp:1:
+In file included from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/src/ofApp.h:4:
+In file included from /Users/as220/_openFrameworksAndroid/addons/ofxBox2d/src/ofxBox2d.h:10:
+/Users/as220/_openFrameworksAndroid/addons/ofxBox2d/src/ofxBox2dRect.h:35:7: warning: 'ofxBox2dRect::addRepulsionForce' hides overloaded virtual function [-Woverloaded-virtual]
+        void addRepulsionForce(float fx, float fy, float amt);
+             ^
+/Users/as220/_openFrameworksAndroid/addons/ofxBox2d/src/ofxBox2dBaseShape.h:98:15: note: hidden overloaded virtual function 'ofxBox2dBaseShape::addRepulsionForce' declared here: type mismatch at 1st parameter ('ofVec2f' vs 'float')
+        virtual void addRepulsionForce(ofVec2f pt, float radius, float amt);
+                     ^
+In file included from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/src/ofApp.cpp:1:
+In file included from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/src/ofApp.h:4:
+In file included from /Users/as220/_openFrameworksAndroid/addons/ofxBox2d/src/ofxBox2d.h:10:
+/Users/as220/_openFrameworksAndroid/addons/ofxBox2d/src/ofxBox2dRect.h:36:7: warning: 'ofxBox2dRect::addRepulsionForce' hides overloaded virtual function [-Woverloaded-virtual]
+        void addRepulsionForce(ofVec2f pt, float amt);
+             ^
+/Users/as220/_openFrameworksAndroid/addons/ofxBox2d/src/ofxBox2dBaseShape.h:98:15: note: hidden overloaded virtual function 'ofxBox2dBaseShape::addRepulsionForce' declared here: different number of parameters (3 vs 2)
+        virtual void addRepulsionForce(ofVec2f pt, float radius, float amt);
+                     ^
+In file included from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/src/ofApp.cpp:1:
+In file included from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/src/ofApp.h:5:
+/Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/src/FluxlyClasses.h:168:9: warning: 'ofRotate' is deprecated [-Wdeprecated-declarations]
+        ofRotate(getRotation(), 0, 0, 1);
+        ^
+/Users/as220/_openFrameworksAndroid/libs/openFrameworks/graphics/ofGraphics.h:983:1: note: 'ofRotate' has been explicitly marked deprecated here
+OF_DEPRECATED_MSG("Use ofRotateDeg or ofRotateRad", void ofRotate(float degrees, float vecX, float vecY, float vecZ));
+^
+/Users/as220/_openFrameworksAndroid/libs/openFrameworks/utils/ofConstants.h:87:71: note: expanded from macro 'OF_DEPRECATED_MSG'
+        #define OF_DEPRECATED_MSG(message, func) func __attribute__ ((deprecated))
+                                                                      ^
+In file included from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/src/ofApp.cpp:1:
+In file included from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/src/ofApp.h:5:
+/Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/src/FluxlyClasses.h:192:9: warning: 'ofRotate' is deprecated [-Wdeprecated-declarations]
+        ofRotate(getRotation(), 0, 0, 1);
+        ^
+/Users/as220/_openFrameworksAndroid/libs/openFrameworks/graphics/ofGraphics.h:983:1: note: 'ofRotate' has been explicitly marked deprecated here
+OF_DEPRECATED_MSG("Use ofRotateDeg or ofRotateRad", void ofRotate(float degrees, float vecX, float vecY, float vecZ));
+^
+/Users/as220/_openFrameworksAndroid/libs/openFrameworks/utils/ofConstants.h:87:71: note: expanded from macro 'OF_DEPRECATED_MSG'
+        #define OF_DEPRECATED_MSG(message, func) func __attribute__ ((deprecated))
+                                                                      ^
+In file included from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/src/ofApp.cpp:1:
+In file included from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/src/ofApp.h:5:
+/Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/src/FluxlyClasses.h:247:9: warning: 'ofRotate' is deprecated [-Wdeprecated-declarations]
+        ofRotate(rotation, 0, 0, 1);
+        ^
+/Users/as220/_openFrameworksAndroid/libs/openFrameworks/graphics/ofGraphics.h:983:1: note: 'ofRotate' has been explicitly marked deprecated here
+OF_DEPRECATED_MSG("Use ofRotateDeg or ofRotateRad", void ofRotate(float degrees, float vecX, float vecY, float vecZ));
+^
+/Users/as220/_openFrameworksAndroid/libs/openFrameworks/utils/ofConstants.h:87:71: note: expanded from macro 'OF_DEPRECATED_MSG'
+        #define OF_DEPRECATED_MSG(message, func) func __attribute__ ((deprecated))
+                                                                      ^
+In file included from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/src/ofApp.cpp:1:
+In file included from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/src/ofApp.h:5:
+/Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/src/FluxlyClasses.h:636:19: warning: unused variable 'ratio' [-Wunused-variable]
+            float ratio =((float)menuItemW/menuW);
+                  ^
+In file included from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/src/ofApp.cpp:1:
+In file included from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/src/ofApp.h:7:
+/Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/../../../addons/ofxPd/src/ofxPd.h:71:8: warning: 'ofxPd::init' hides overloaded virtual function [-Woverloaded-virtual]
+                bool init(const int numOutChannels, const int numInChannels,
+                     ^
+/Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/../../../addons/ofxPd/libs/libpd/cpp/PdBase.hpp:91:22: note: hidden overloaded virtual function 'pd::PdBase::init' declared here: different number of parameters (4 vs 5)
+        virtual bool init(const int numInChannels, const int numOutChannels,
+                     ^
+In file included from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/src/ofApp.cpp:1:
+In file included from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/src/ofApp.h:7:
+/Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/../../../addons/ofxPd/src/ofxPd.h:102:13: warning: 'ofxPd::openPatch' hides overloaded virtual function [-Woverloaded-virtual]
+                pd::Patch openPatch(const std::string& patch);
+                          ^
+/Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/../../../addons/ofxPd/libs/libpd/cpp/PdBase.hpp:120:27: note: hidden overloaded virtual function 'pd::PdBase::openPatch' declared here: different number of parameters (2 vs 1)
+        virtual pd::Patch openPatch(const std::string& patch, const std::string& path);
+                          ^
+In file included from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/src/ofApp.cpp:1:
+/Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/src/ofApp.h:99:10: warning: 'ofApp::deviceOrientationChanged' hides overloaded virtual function [-Woverloaded-virtual]
+    void deviceOrientationChanged(int newOrientation);
+         ^
+/Users/as220/_openFrameworksAndroid/addons/ofxAndroid/src/ofxAndroidApp.h:42:15: note: hidden overloaded virtual function 'ofxAndroidApp::deviceOrientationChanged' declared here: type mismatch at 1st parameter ('ofOrientation' vs 'int')
+        virtual void deviceOrientationChanged(ofOrientation newOrientation){};
+                     ^
+/Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/src/ofApp.cpp:271:17: warning: unused variable 'id1' [-Wunused-variable]
+            int id1 = gameSettings.getValue("id1", 0);
+                ^
+/Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/src/ofApp.cpp:272:17: warning: unused variable 'id2' [-Wunused-variable]
+            int id2 = gameSettings.getValue("id2", 0);
+                ^
+In file included from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/src/ofApp.cpp:1:
+In file included from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/src/ofApp.h:4:
+In file included from /Users/as220/_openFrameworksAndroid/addons/ofxBox2d/src/ofxBox2d.h:3:
+/Users/as220/_openFrameworksAndroid/addons/ofxBox2d/src/ofxBox2dUtils.h:8:14: warning: unused function 'b2dNum' [-Wunused-function]
+static float b2dNum(float f) {
+             ^
+/Users/as220/_openFrameworksAndroid/addons/ofxBox2d/src/ofxBox2dUtils.h:13:15: warning: unused function 'screenPtToWorldPt' [-Wunused-function]
+static b2Vec2 screenPtToWorldPt(ofVec2f p) {
+              ^
+/Users/as220/_openFrameworksAndroid/addons/ofxBox2d/src/ofxBox2dUtils.h:16:16: warning: unused function 'worldPtToscreenPt' [-Wunused-function]
+static ofPoint worldPtToscreenPt(b2Vec2 p) {
+               ^
+In file included from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/src/ofApp.cpp:1:
+In file included from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/src/ofApp.h:4:
+In file included from /Users/as220/_openFrameworksAndroid/addons/ofxBox2d/src/ofxBox2d.h:4:
+/Users/as220/_openFrameworksAndroid/addons/ofxBox2d/src/ofxBox2dPolygonUtils.h:101:25: warning: unused function 'simplifyContour' [-Wunused-function]
+static vector <ofVec2f> simplifyContour(vector <ofVec2f> &V, float tol) {
+                        ^
+/Users/as220/_openFrameworksAndroid/addons/ofxBox2d/src/ofxBox2dPolygonUtils.h:209:14: warning: unused function 'getTriangleRadius' [-Wunused-function]
+static float getTriangleRadius(ofVec2f v1, ofVec2f v2, ofVec2f v3) {
+             ^
+/Users/as220/_openFrameworksAndroid/addons/ofxBox2d/src/ofxBox2dPolygonUtils.h:237:14: warning: unused function 'getArea' [-Wunused-function]
+static float getArea(const vector <ofVec2f> pts) {
+             ^
+/Users/as220/_openFrameworksAndroid/addons/ofxBox2d/src/ofxBox2dPolygonUtils.h:250:14: warning: unused function 'getTriangleArea' [-Wunused-function]
+static float getTriangleArea(ofVec2f &a, ofVec2f &b, ofVec2f &c) {
+             ^
+/Users/as220/_openFrameworksAndroid/addons/ofxBox2d/src/ofxBox2dPolygonUtils.h:290:13: warning: unused function 'addRandomPointsInside' [-Wunused-function]
+static void addRandomPointsInside(ofPolyline &poly, int amt=100) {
+            ^
+/Users/as220/_openFrameworksAndroid/addons/ofxBox2d/src/ofxBox2dPolygonUtils.h:381:31: warning: unused function 'triangulatePolygonWithOutline' [-Wunused-function]
+static vector <TriangleShape> triangulatePolygonWithOutline(const vector <ofPoint> &pts,
+                              ^
+/Users/as220/_openFrameworksAndroid/addons/ofxBox2d/src/ofxBox2dPolygonUtils.h:463:31: warning: unused function 'triangulatePolygon' [-Wunused-function]
+static vector <TriangleShape> triangulatePolygon(const ofPolyline &poly, bool addPointsInside=false, int amt=100) {
+                              ^
+/Users/as220/_openFrameworksAndroid/addons/ofxBox2d/src/ofxBox2dPolygonUtils.h:519:19: warning: unused function 'getConvexHull' [-Wunused-function]
+static ofPolyline getConvexHull(vector<ofPoint> &linePts){
+                  ^
+/Users/as220/_openFrameworksAndroid/addons/ofxBox2d/src/ofxBox2dPolygonUtils.h:542:19: warning: unused function 'getConvexHull' [-Wunused-function]
+static ofPolyline getConvexHull(ofPolyline &line){
+                  ^
+30 warnings generated.
+
+Finished compileOFAndroidAppArmeabi-v7aDebugArm7SharedLibraryOFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp, see full log file:///Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/build/tmp/compileOFAndroidAppArmeabi-v7aDebugArm7SharedLibraryOFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/output.txt.

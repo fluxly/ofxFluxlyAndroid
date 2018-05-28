@@ -1,0 +1,192 @@
+See file:///Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/build/tmp/compileOFAndroidAppArmeabi-v7aDebugArm7SharedLibraryOFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/output.txt for all output for compileOFAndroidAppArmeabi-v7aDebugArm7SharedLibraryOFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC.
+compiling z_print_util.c successful.
+
+compiling ringbuffer.c successful.
+
+compiling z_queued.c successful.
+
+compiling freeverb~.c successful.
+/Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/src/freeverb~.c:831:19: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+        logpost(NULL, 4, version);
+                         ^~~~~~~
+/Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/src/freeverb~.c:831:19: note: treat the string as an argument to avoid this
+        logpost(NULL, 4, version);
+                         ^
+                         "%s", 
+1 warning generated.
+
+compiling z_hooks.c successful.
+
+compiling x_libpdreceive.c successful.
+
+compiling s_libpdmidi.c successful.
+
+compiling stdout.c successful.
+
+compiling pique.c successful.
+
+compiling choice.c successful.
+
+compiling z_libpd.c successful.
+
+compiling x_time.c successful.
+
+compiling m_atom.c successful.
+
+compiling d_arithmetic.c successful.
+
+compiling g_vdial.c successful.
+
+compiling x_interface.c successful.
+
+compiling x_midi.c successful.
+
+compiling s_inter.c successful.
+
+compiling g_mycanvas.c successful.
+
+compiling g_editor.c successful.
+
+compiling x_text.c successful.
+
+compiling d_fft.c successful.
+
+compiling d_misc.c successful.
+
+compiling d_dac.c successful.
+
+compiling s_utf8.c successful.
+
+compiling m_pd.c successful.
+
+compiling d_filter.c successful.
+
+compiling x_vexp_fun.c successful.
+
+compiling g_graph.c successful.
+
+compiling d_soundfile.c successful.
+
+compiling x_misc.c successful.
+
+compiling x_scalar.c successful.
+
+compiling g_guiconnect.c successful.
+
+compiling g_rtext.c successful.
+
+compiling s_audio.c successful.
+
+compiling g_scalar.c successful.
+
+compiling g_clone.c successful.
+
+compiling m_glob.c successful.
+
+compiling x_net.c successful.
+
+compiling m_binbuf.c successful.
+
+compiling d_ctl.c successful.
+
+compiling x_list.c successful.
+
+compiling x_acoustics.c successful.
+
+compiling g_io.c successful.
+
+compiling g_hdial.c successful.
+
+compiling g_readwrite.c successful.
+
+compiling g_numbox.c successful.
+
+compiling g_vumeter.c successful.
+
+compiling s_file.c successful.
+
+compiling g_toggle.c successful.
+
+compiling g_array.c successful.
+
+compiling d_osc.c successful.
+
+compiling g_bang.c successful.
+
+compiling d_delay.c successful.
+
+compiling s_audio_dummy.c successful.
+
+compiling s_loader.c successful.
+/Users/as220/_openFrameworksAndroid/addons/ofxPd/libs/libpd/pure-data/src/s_loader.c:234:2: warning: "No dynamic loading mechanism specified,     libdl or WIN32 required for loading externals!" [-W#warnings]
+#warning "No dynamic loading mechanism specified, \
+ ^
+1 warning generated.
+
+compiling g_vslider.c successful.
+
+compiling m_memory.c successful.
+
+compiling s_print.c successful.
+
+compiling m_class.c successful.
+
+compiling g_all_guis.c successful.
+
+compiling m_sched.c successful.
+
+compiling d_fft_fftsg.c successful.
+
+compiling d_array.c successful.
+
+compiling s_main.c successful.
+
+compiling x_arithmetic.c successful.
+
+compiling d_math.c successful.
+
+compiling g_canvas.c successful.
+
+compiling g_template.c successful.
+
+compiling m_conf.c successful.
+
+compiling m_obj.c successful.
+
+compiling x_vexp_if.c successful.
+
+compiling g_hslider.c successful.
+
+compiling d_resample.c successful.
+
+compiling x_gui.c successful.
+
+compiling d_ugen.c successful.
+
+compiling x_array.c successful.
+
+compiling d_global.c successful.
+
+compiling g_traversal.c successful.
+
+compiling x_connective.c successful.
+
+compiling g_text.c successful.
+
+compiling s_path.c successful.
+
+compiling x_vexp.c successful.
+/Users/as220/_openFrameworksAndroid/addons/ofxPd/libs/libpd/pure-data/src/x_vexp.c:935:13: warning: logical not is only applied to the left hand side of this bitwise operator [-Wlogical-not-parentheses]
+        if (!expr->exp_error & EE_DZ) {
+            ^                ~
+/Users/as220/_openFrameworksAndroid/addons/ofxPd/libs/libpd/pure-data/src/x_vexp.c:935:13: note: add parentheses after the '!' to evaluate the bitwise operator first
+        if (!expr->exp_error & EE_DZ) {
+            ^
+             (                      )
+/Users/as220/_openFrameworksAndroid/addons/ofxPd/libs/libpd/pure-data/src/x_vexp.c:935:13: note: add parentheses around left hand side expression to silence this warning
+        if (!expr->exp_error & EE_DZ) {
+            ^
+            (               )
+1 warning generated.
+
+Finished compileOFAndroidAppArmeabi-v7aDebugArm7SharedLibraryOFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC, see full log file:///Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/build/tmp/compileOFAndroidAppArmeabi-v7aDebugArm7SharedLibraryOFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/output.txt.

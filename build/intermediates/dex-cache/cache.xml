@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/as220/_openFrameworksAndroid/addons/ofxAndroid/ofAndroidLib/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6dec5b5f4edc78dd8cf9d00fff91bb989f2c5274">
+        <dex dex="/Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/build/intermediates/pre-dexed/arm7/debug/classes_53338caffea7cfc6e37799950f89ade024b7d6c6.jar" />
+    </item>
+
+</items>

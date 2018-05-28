@@ -1,0 +1,415 @@
+#N canvas 192 23 1060 693 10;
+#X obj 307 263 dac~;
+#N canvas 95 172 614 519 loadFile 0;
+#X obj 243 255 soundfiler;
+#X obj 299 136 loadbang;
+#N canvas 0 22 450 300 (subpatch) 0;
+#X array global-soundbuffer 46592 float 2;
+#X coords 0 1 46592 -1 200 140 1 0 0;
+#X restore 378 266 graph;
+#X obj 243 310 expr 44100 / $f1;
+#X obj 243 283 float;
+#X floatatom 242 357 5 0 0 0 - - -, f 5;
+#X floatatom 286 358 5 0 0 0 - - -, f 5;
+#X obj 286 391 s samples;
+#X obj 241 392 s step;
+#X obj 244 78 inlet;
+#X msg 248 218 read -resize accordion1.wav global-soundbuffer;
+#X connect 0 0 4 0;
+#X connect 0 0 6 0;
+#X connect 1 0 10 0;
+#X connect 3 0 5 0;
+#X connect 4 0 3 0;
+#X connect 5 0 8 0;
+#X connect 6 0 7 0;
+#X connect 9 0 10 0;
+#X connect 10 0 0 0;
+#X restore 309 94 pd loadFile;
+#X obj 309 62 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X text 331 61 reload;
+#X obj 309 28 r reload;
+#N canvas 459 70 880 640 base-plus-24-overtones 1;
+#X obj 59 120 tgl 15 0 empty toggle0 channel1toggle 17 7 0 10 -262144
+-1 -1 0 1;
+#X msg 100 150 1;
+#X obj 192 129 tgl 15 0 empty toggle1 empty 17 7 0 10 -258113 -1 -1
+0 1;
+#X obj 334 131 tgl 15 0 empty toggle2 empty 17 7 0 10 -258113 -1 -1
+0 1;
+#X obj 59 304 tgl 15 0 empty toggle4 empty 17 7 0 10 -257985 -1 -1
+0 1;
+#X obj 196 315 tgl 15 0 empty toggle5 empty 17 7 0 10 -257985 -1 -1
+0 1;
+#X obj 351 323 tgl 15 0 empty toggle6 empty 17 7 0 10 -257985 -1 -1
+0 1;
+#X msg 233 159 2;
+#X msg 375 161 3;
+#X msg 100 334 0.5;
+#X msg 392 353 0.25;
+#X msg 237 345 0.333;
+#X text 55 53 BASE SAMPLE;
+#X msg 432 353 0.8;
+#X msg 277 345 0.75;
+#X msg 140 334 0.7;
+#X msg 415 161 0.45;
+#X msg 273 159 0.4;
+#X msg 140 150 0.35;
+#X obj 60 176 yak-channel;
+#X obj 193 184 yak-channel;
+#X obj 60 359 yak-channel;
+#X obj 335 187 yak-channel;
+#X obj 352 379 yak-channel;
+#X obj 197 371 yak-channel;
+#X text 51 192 comment;
+#X obj 58 78 r control0;
+#X obj 190 78 r control1;
+#X obj 57 258 r control4;
+#X obj 333 81 r control2;
+#X obj 192 258 r control5;
+#X obj 343 258 r control6;
+#X obj 194 217 throw~ scope1;
+#X obj 480 131 tgl 15 0 empty toggle3 empty 17 7 0 10 -258113 -1 -1
+0 1;
+#X obj 481 186 yak-channel;
+#X obj 479 81 r control3;
+#X msg 521 161 4;
+#X msg 561 161 0.5;
+#X obj 59 206 throw~ scope0;
+#X obj 366 211 throw~ scope2;
+#X obj 512 211 throw~ scope3;
+#X obj 61 394 throw~ scope4;
+#X obj 229 397 throw~ scope5;
+#X obj 384 402 throw~ scope6;
+#X connect 0 0 1 0;
+#X connect 0 0 18 0;
+#X connect 0 0 19 0;
+#X connect 1 0 19 1;
+#X connect 2 0 7 0;
+#X connect 2 0 17 0;
+#X connect 2 0 20 0;
+#X connect 3 0 8 0;
+#X connect 3 0 16 0;
+#X connect 3 0 22 0;
+#X connect 4 0 9 0;
+#X connect 4 0 15 0;
+#X connect 4 0 21 0;
+#X connect 5 0 11 0;
+#X connect 5 0 14 0;
+#X connect 5 0 24 0;
+#X connect 6 0 10 0;
+#X connect 6 0 13 0;
+#X connect 6 0 23 0;
+#X connect 7 0 20 1;
+#X connect 8 0 22 1;
+#X connect 9 0 21 1;
+#X connect 10 0 23 1;
+#X connect 11 0 24 1;
+#X connect 13 0 23 2;
+#X connect 14 0 24 2;
+#X connect 15 0 21 2;
+#X connect 16 0 22 2;
+#X connect 17 0 20 2;
+#X connect 18 0 19 2;
+#X connect 19 0 38 0;
+#X connect 20 0 32 0;
+#X connect 21 0 41 0;
+#X connect 22 0 39 0;
+#X connect 23 0 43 0;
+#X connect 24 0 42 0;
+#X connect 26 0 0 0;
+#X connect 27 0 2 0;
+#X connect 28 0 4 0;
+#X connect 29 0 3 0;
+#X connect 30 0 5 0;
+#X connect 31 0 6 0;
+#X connect 33 0 36 0;
+#X connect 33 0 37 0;
+#X connect 33 0 34 0;
+#X connect 34 0 40 0;
+#X connect 35 0 33 0;
+#X connect 36 0 34 1;
+#X connect 37 0 34 2;
+#X restore 309 126 pd base-plus-24-overtones;
+#X obj 644 331 tgl 15 0 toggle0 empty empty 17 7 0 10 -262144 -1 -1
+0 1;
+#X obj 693 284 tgl 15 0 toggle1 empty empty 17 7 0 10 -258113 -1 -1
+0 1;
+#X obj 753 245 tgl 15 0 toggle2 empty empty 17 7 0 10 -258113 -1 -1
+0 1;
+#X obj 692 207 tgl 15 0 toggle3 empty empty 17 7 0 10 -258113 -1 -1
+0 1;
+#X obj 754 167 tgl 15 0 toggle4 empty empty 17 7 0 10 -258113 -1 -1
+0 1;
+#X obj 692 122 tgl 15 0 toggle5 empty empty 17 7 0 10 -258113 -1 -1
+0 1;
+#X obj 754 83 tgl 15 0 toggle6 empty empty 17 7 0 10 -258113 -1 -1
+0 1;
+#X obj 692 381 tgl 15 0 toggle7 empty empty 17 7 0 10 -257985 -1 -1
+0 1;
+#X obj 752 419 tgl 15 0 toggle8 empty empty 17 7 0 10 -257985 -1 -1
+0 1;
+#X obj 692 457 tgl 15 0 toggle9 empty empty 17 7 0 10 -257985 -1 -1
+0 1;
+#X obj 752 497 tgl 15 0 toggle10 empty empty 17 7 0 10 -257985 -1 -1
+0 1;
+#X obj 691 541 tgl 15 0 toggle11 empty empty 17 7 0 10 -257985 -1 -1
+0 1;
+#X obj 753 582 tgl 15 0 toggle12 empty empty 17 7 0 10 -257985 -1 -1
+0 1;
+#X obj 595 285 tgl 15 0 toggle13 empty empty 17 7 0 10 -4034 -1 -1
+0 1;
+#X obj 534 244 tgl 15 0 toggle14 empty empty 17 7 0 10 -4034 -1 -1
+0 1;
+#X obj 594 206 tgl 15 0 toggle15 empty empty 17 7 0 10 -4034 -1 -1
+0 1;
+#X obj 533 166 tgl 15 0 toggle16 empty empty 17 7 0 10 -4034 -1 -1
+0 1;
+#X obj 593 123 tgl 15 0 toggle17 empty empty 17 7 0 10 -4034 -1 -1
+0 1;
+#X obj 533 83 tgl 15 0 toggle18 empty empty 17 7 0 10 -4034 -1 -1 0
+1;
+#X obj 594 380 tgl 15 0 toggle19 empty empty 17 7 0 10 -4032 -1 -1
+0 1;
+#X obj 533 419 tgl 15 0 toggle20 empty empty 17 7 0 10 -4032 -1 -1
+0 1;
+#X obj 593 457 tgl 15 0 toggle21 empty empty 17 7 0 10 -4032 -1 -1
+0 1;
+#X obj 534 496 tgl 15 0 toggle22 empty empty 17 7 0 10 -4032 -1 -1
+0 1;
+#X obj 594 541 tgl 15 0 toggle23 empty empty 17 7 0 10 -4032 -1 -1
+0 1;
+#X obj 532 582 tgl 15 0 toggle24 empty empty 17 7 0 10 -4032 -1 -1
+0 1;
+#X obj 425 321 hsl 128 15 0 20 0 0 masterTempo keyboardIn empty -2
+-8 0 10 -99865 -257985 -1 0 1;
+#X obj 725 333 hsl 128 15 1 10 0 0 sampleNumber reload empty -2 -8
+0 10 -99865 -159808 -1 0 1;
+#X floatatom 456 365 5 0 0 0 - - -, f 5;
+#X obj 321 593 s reload;
+#X obj 321 565 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#N canvas 198 33 628 686 midi-seq 0;
+#X obj 49 25 loadbang;
+#X obj 66 68 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 107 24 r reload;
+#X obj 85 530 tgl 15 0 toggle12 empty empty 17 7 0 10 -262144 -1 -1
+0 1;
+#X obj 103 530 tgl 15 0 toggle11 empty empty 17 7 0 10 -262144 -1 -1
+0 1;
+#X obj 120 530 tgl 15 0 toggle10 empty empty 17 7 0 10 -262144 -1 -1
+0 1;
+#X obj 139 530 tgl 15 0 toggle9 empty empty 17 7 0 10 -262144 -1 -1
+0 1;
+#X obj 157 530 tgl 15 0 toggle8 empty empty 17 7 0 10 -262144 -1 -1
+0 1;
+#X obj 174 530 tgl 15 0 toggle7 empty empty 17 7 0 10 -262144 -1 -1
+0 1;
+#X obj 193 556 tgl 15 0 toggle0 empty empty 17 7 0 10 -262144 -1 -1
+0 1;
+#X obj 210 530 tgl 15 0 toggle1 empty empty 17 7 0 10 -262144 -1 -1
+0 1;
+#X obj 228 530 tgl 15 0 toggle2 empty empty 17 7 0 10 -262144 -1 -1
+0 1;
+#X obj 246 530 tgl 15 0 toggle3 empty empty 17 7 0 10 -262144 -1 -1
+0 1;
+#X obj 264 530 tgl 15 0 toggle4 empty empty 17 7 0 10 -262144 -1 -1
+0 1;
+#X obj 281 530 tgl 15 0 toggle5 empty empty 17 7 0 10 -262144 -1 -1
+0 1;
+#X obj 299 529 tgl 15 0 toggle6 empty empty 17 7 0 10 -262144 -1 -1
+0 1;
+#X obj 168 211 notein;
+#X obj 169 251 stripnote;
+#X floatatom 254 323 5 0 0 0 - - -, f 5;
+#X obj 105 474 route 0 1 2 3 4 5 6 7 8 9 10 11 12;
+#X obj 295 116 s masterTempo;
+#X msg 409 43 2.5;
+#X msg 270 40 1.5;
+#X msg 304 41 1.75;
+#X msg 339 41 2;
+#X msg 374 40 2.25;
+#X connect 0 0 1 0;
+#X connect 2 0 1 0;
+#X connect 16 0 17 0;
+#X connect 16 1 17 1;
+#X connect 17 0 18 0;
+#X connect 18 0 19 0;
+#X connect 19 0 3 0;
+#X connect 19 1 4 0;
+#X connect 19 2 5 0;
+#X connect 19 3 6 0;
+#X connect 19 4 7 0;
+#X connect 19 5 8 0;
+#X connect 19 6 9 0;
+#X connect 19 7 10 0;
+#X connect 19 8 11 0;
+#X connect 19 9 12 0;
+#X connect 19 10 13 0;
+#X connect 19 11 14 0;
+#X connect 19 12 15 0;
+#X connect 21 0 20 0;
+#X connect 22 0 20 0;
+#X connect 23 0 20 0;
+#X connect 24 0 20 0;
+#X connect 25 0 20 0;
+#X restore 317 495 pd midi-seq;
+#X obj 299 296 loadbang;
+#X msg 324 401 1;
+#X msg 307 334 0.5;
+#X obj 299 370 s masterTempo;
+#X obj 351 442 s masterVolume;
+#N canvas 20 29 1200 680 scopes 0;
+#X obj 48 73 clip~ -1 1;
+#X obj 80 102 loadbang;
+#X obj 85 152 metro 100;
+#X text 84 124 1;
+#X msg 84 124 1;
+#N canvas 0 22 450 300 (subpatch) 0;
+#X array scope0 512 float 2;
+#X coords 0 1 512 -1 200 140 1 0 0;
+#X restore 163 70 graph;
+#X obj 31 208 throw~ audioOut;
+#X obj 53 296 clip~ -1 1;
+#X obj 85 325 loadbang;
+#X obj 90 375 metro 100;
+#X text 89 347 1;
+#X msg 89 347 1;
+#N canvas 0 22 450 300 (subpatch) 0;
+#X array scope1 512 float 2;
+#X coords 0 1 512 -1 200 140 1 0 0;
+#X restore 168 293 graph;
+#X obj 36 431 throw~ audioOut;
+#X obj 56 522 clip~ -1 1;
+#X obj 88 551 loadbang;
+#X obj 93 601 metro 100;
+#X text 92 573 1;
+#X msg 92 573 1;
+#N canvas 0 22 450 300 (subpatch) 0;
+#X array scope2 512 float 2;
+#X coords 0 1 512 -1 200 140 1 0 0;
+#X restore 171 519 graph;
+#X obj 39 657 throw~ audioOut;
+#X obj 426 68 clip~ -1 1;
+#X obj 458 97 loadbang;
+#X obj 463 147 metro 100;
+#X text 462 119 1;
+#X msg 462 119 1;
+#N canvas 0 22 450 300 (subpatch) 0;
+#X array scope3 512 float 2;
+#X coords 0 1 512 -1 200 140 1 0 0;
+#X restore 541 65 graph;
+#X obj 409 203 throw~ audioOut;
+#X obj 432 298 clip~ -1 1;
+#X obj 464 327 loadbang;
+#X obj 469 377 metro 100;
+#X text 468 349 1;
+#X msg 468 349 1;
+#N canvas 0 22 450 300 (subpatch) 0;
+#X array scope4 512 float 2;
+#X coords 0 1 512 -1 200 140 1 0 0;
+#X restore 547 295 graph;
+#X obj 415 433 throw~ audioOut;
+#X obj 437 521 clip~ -1 1;
+#X obj 469 550 loadbang;
+#X obj 474 600 metro 100;
+#X text 473 572 1;
+#X msg 473 572 1;
+#N canvas 0 22 450 300 (subpatch) 0;
+#X array scope5 512 float 2;
+#X coords 0 1 512 -1 200 140 1 0 0;
+#X restore 552 518 graph;
+#X obj 420 656 throw~ audioOut;
+#X obj 26 13 catch~ scope0;
+#X obj 31 236 catch~ scope1;
+#X obj 34 462 catch~ scope2;
+#X obj 404 8 catch~ scope3;
+#X obj 410 238 catch~ scope4;
+#X obj 415 461 catch~ scope5;
+#X obj 54 625 tabwrite~ scope2;
+#X obj 424 171 tabwrite~ scope3;
+#X obj 430 401 tabwrite~ scope4;
+#X obj 435 624 tabwrite~ scope5;
+#X obj 46 176 tabwrite~ scope0;
+#X obj 51 399 tabwrite~ scope1;
+#X obj 808 64 clip~ -1 1;
+#X obj 840 93 loadbang;
+#X obj 845 143 metro 100;
+#X text 844 115 1;
+#X msg 844 115 1;
+#N canvas 0 22 450 300 (subpatch) 0;
+#X array scope6 512 float 2;
+#X coords 0 1 512 -1 200 140 1 0 0;
+#X restore 923 61 graph;
+#X obj 791 199 throw~ audioOut;
+#X obj 786 4 catch~ scope6;
+#X obj 806 167 tabwrite~ scope6;
+#X connect 0 0 52 0;
+#X connect 1 0 4 0;
+#X connect 2 0 52 0;
+#X connect 4 0 2 0;
+#X connect 7 0 53 0;
+#X connect 8 0 11 0;
+#X connect 9 0 53 0;
+#X connect 11 0 9 0;
+#X connect 14 0 48 0;
+#X connect 15 0 18 0;
+#X connect 16 0 48 0;
+#X connect 18 0 16 0;
+#X connect 21 0 49 0;
+#X connect 22 0 25 0;
+#X connect 23 0 49 0;
+#X connect 25 0 23 0;
+#X connect 28 0 50 0;
+#X connect 29 0 32 0;
+#X connect 30 0 50 0;
+#X connect 32 0 30 0;
+#X connect 35 0 51 0;
+#X connect 36 0 39 0;
+#X connect 37 0 51 0;
+#X connect 39 0 37 0;
+#X connect 42 0 0 0;
+#X connect 42 0 6 0;
+#X connect 43 0 7 0;
+#X connect 43 0 13 0;
+#X connect 44 0 14 0;
+#X connect 44 0 20 0;
+#X connect 45 0 21 0;
+#X connect 45 0 27 0;
+#X connect 46 0 28 0;
+#X connect 46 0 34 0;
+#X connect 47 0 35 0;
+#X connect 47 0 41 0;
+#X connect 54 0 62 0;
+#X connect 55 0 58 0;
+#X connect 56 0 62 0;
+#X connect 58 0 56 0;
+#X connect 61 0 54 0;
+#X connect 61 0 60 0;
+#X restore 427 155 pd scopes;
+#X obj 305 164 catch~ audioOut;
+#X obj 306 623 loadbang;
+#X obj 375 399 r control8;
+#X obj 398 297 r control7;
+#X obj 307 232 *~;
+#X obj 358 200 r masterVolume;
+#X obj 349 339 + 1;
+#X obj 375 319 * 50;
+#X connect 2 0 1 0;
+#X connect 4 0 2 0;
+#X connect 31 0 33 0;
+#X connect 35 0 34 0;
+#X connect 37 0 39 0;
+#X connect 37 0 38 0;
+#X connect 38 0 41 0;
+#X connect 39 0 40 0;
+#X connect 43 0 47 0;
+#X connect 45 0 41 0;
+#X connect 46 0 50 0;
+#X connect 47 0 0 0;
+#X connect 47 0 0 1;
+#X connect 48 0 47 1;
+#X connect 49 0 40 0;
+#X connect 50 0 49 0;
+#X coords 0 693 1 692 85 60 0;

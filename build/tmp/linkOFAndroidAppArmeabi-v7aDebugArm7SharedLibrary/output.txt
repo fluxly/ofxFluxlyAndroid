@@ -1,0 +1,4 @@
+See file:///Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/build/tmp/linkOFAndroidAppArmeabi-v7aDebugArm7SharedLibrary/output.txt for all output for linkOFAndroidAppArmeabi-v7aDebugArm7SharedLibrary.
+linking libOFAndroidApp.so successful.
+
+Finished linkOFAndroidAppArmeabi-v7aDebugArm7SharedLibrary, see full log file:///Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/build/tmp/linkOFAndroidAppArmeabi-v7aDebugArm7SharedLibrary/output.txt.
