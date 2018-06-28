@@ -1,28 +1,28 @@
 //
-// Created by as220 on 5/1/18.
+//  FluxlyClasses.h
+//  Fluxly
+//
+//  Created by 
 //
 
 #ifndef OFXFLUXLY_FLUXLYCLASSES_H
 #define OFXFLUXLY_FLUXLYCLASSES_H
 
-#endif //OFXFLUXLY_FLUXLYCLASSES_H
-
-//
-//  FluxlyClasses.h
-//  Fluxly
-//
-//  Created by as220 on 11/14/17.
-//
-
+#endif
 #ifndef customClasses_h
 #define customClasses_h
+
+//#define IOS
+#define ANDROID
+
+//#define FLUXLY_FREE (0)
+#define FLUXLY_STANDARD (1)
+//#define FLUXLY_PRO (2)
 
 #define MAIN_MENU (0)
 #define SAMPLE_MENU (1)
 
 #define SCOPE_SIZE (256)
-
-#define CONSOLE_H (200)
 
 #include "ofxXmlSettings.h"
 
@@ -32,7 +32,7 @@ class FluxlyCircle : public ofxBox2dCircle {
 public:
     FluxlyCircle() {
     }
-
+    
     ofColor color;
     /* Color type:
      1: ff0000  or  f62394
@@ -42,7 +42,7 @@ public:
      5: fffa00  or  ffcf00
      6: ffa600  or  ff7d01
      */
-
+    
     int id;
     int w;
     int x;
@@ -68,41 +68,46 @@ public:
     bool touched = false;
     int touchId = -1;
     float rotation = 0.0;
-
+    
     int soundWaveStep = 2;
     int soundWaveH = 100;
     int soundWaveStart = -512;
     int maxAnimationCount = 150;
     int animationStep = 6;
-
+    
     float prevTempo = 0;
     float tempo = 0;
     int instrument;
-
+    
     string filename;
-
+    
     vector<float> scopeArray;
-
+    
     ofTrueTypeFont vag;
-
+    
     b2BodyDef * def;
-
+    
     ofImage myEyesOpen;
     ofImage myEyesClosed;
     ofImage grayOverlay;
     ofImage spriteImg;
-
+    
+    float retinaScale;
+    
     void init() {
         myEyesOpen.load("eyesOpen.png");
         myEyesClosed.load("eyesClosed.png");
         vag.load("vag.ttf", 9);
         origType = type;
         setMesh();
+        soundWaveStart = soundWaveStart*retinaScale;
+        //soundWaveStep = soundWaveStep * retinaScale;
+        
     }
-
+    
     void setMesh() {
         filename = "mesh" + to_string(type) + ".png";
-
+        
         switch (type % 12) {
             case 0:
                 color = ofColor::fromHex(0xff0000);
@@ -144,7 +149,7 @@ public:
         spriteImg.load(filename);
         spriteImg.getTexture().setTextureMinMagFilter(GL_NEAREST,GL_NEAREST);
     }
-
+    
     void checkToSendTempo() {
         tempo = (body->GetAngularVelocity()/24)*8;
         if (tempo != prevTempo) {
@@ -159,9 +164,9 @@ public:
             spinning = false;
         }
     }
-
+    
     void drawAnimation(int stroke) {
-        x = ofxBox2dBaseShape::getPosition().x;
+      /*  x = ofxBox2dBaseShape::getPosition().x;
         y = ofxBox2dBaseShape::getPosition().y;
         ofPushMatrix();
         ofTranslate(x, y);
@@ -175,29 +180,29 @@ public:
             ofNoFill();
             ofSetColor(color);
             ofSetLineWidth(stroke);
-            for (int i=0; i < count; i++) {
-                ofDrawCircle(0, 0, displayW + i * animationStep);
-            }
+                for (int i=0; i < count; i++) {
+                    ofDrawCircle(0, 0, displayW + i * animationStep);
+                }
             ofFill();
         } else {
             count = 0;
         }
-
-        ofPopMatrix();
+        
+        ofPopMatrix();*/
     }
-
+    
     void drawSoundWave(int stroke) {
-        ofPushMatrix();
+       /* ofPushMatrix();
         ofTranslate(x, y);
         ofRotate(getRotation(), 0, 0, 1);
-        ofSetLineWidth(stroke);
+        ofSetLineWidth(stroke*retinaScale);
         if ((eyeState == 1) && (type<144)) {
-
+            
             float x1 = soundWaveStart;
             ofSetColor(ofColor::fromHex(0x333333));
             for(int j = 0; j < scopeArray.size()-1; j++) {
-                //  ofDrawLine(x,scopeArray[j]*soundWaveH, x+soundWaveW,scopeArray[j+1]*soundWaveH);
-                //  ofDrawLine(x-soundWaveStart,scopeArray[j]*soundWaveH, x-soundWaveStart+soundWaveW,scopeArray[j+1]*soundWaveH);
+              //  ofDrawLine(x,scopeArray[j]*soundWaveH, x+soundWaveW,scopeArray[j+1]*soundWaveH);
+              //  ofDrawLine(x-soundWaveStart,scopeArray[j]*soundWaveH, x-soundWaveStart+soundWaveW,scopeArray[j+1]*soundWaveH);
                 ofDrawLine(x1,scopeArray[j]*soundWaveH, x1+soundWaveStep,scopeArray[j+1]*soundWaveH);
                 x1 += soundWaveStep;
             }
@@ -205,9 +210,10 @@ public:
         } else {
             count = 0;
         }
-        ofPopMatrix();
-    }
+        ofPopMatrix();*/
 
+    }
+    
     void checkToSendNote() {
         if ((eyeState == 1) && (prevState == 0)) {
             sendOn = true;
@@ -218,10 +224,10 @@ public:
             prevState = 0;
         }
     }
-
-    bool inBounds(int x1, int y1) {
+    
+    jboolean inBounds(int x1, int y1) {
         // check id as well
-
+        
         int x = ofxBox2dBaseShape::getPosition().x;
         int y = ofxBox2dBaseShape::getPosition().y;
         if ((x1 < (x+displayW/2)) &&
@@ -233,7 +239,7 @@ public:
             return false;
         }
     }
-
+    
     void draw() {
         if(body == NULL) {
             return;
@@ -245,14 +251,14 @@ public:
         ofSetColor(255, 255, 255);
         ofTranslate(x, y);
         ofRotate(rotation, 0, 0, 1);
-
+        
         spriteImg.draw(0, 0, displayW, displayW);
-
+        
         /* if (nJoints == 3) {
          ofSetHexColor(0xffffff);
          grayOverlay.draw(0, 0, w, w);
          }*/
-
+        
         ofSetHexColor(0xFFFFFF);
         if (eyeState == 0) {
             //ofLog(OF_LOG_VERBOSE, "closed");
@@ -264,7 +270,7 @@ public:
         //vag.drawString(std::to_string(type), -5,-5);
         ofPopMatrix();
     }
-
+    
     void drawAsIcon(int x1, int y1, int size) {
         if(body == NULL) {
             return;
@@ -281,33 +287,33 @@ public:
 };
 
 //--------------------------------------------
-
+/*
 class FluxlyIcon : public ofxBox2dCircle {
 public:
     FluxlyIcon() {
     }
-
+    
     int type;
     int id;
     int x;
     int y;
     int w;
     int eyePeriod;
-
+    
     ofImage myEyesOpen;
     ofImage myEyesClosed;
     ofImage spriteImg;
-
+    
     void init() {
         myEyesOpen.load("eyesOpen.png");
         myEyesClosed.load("eyesClosed.png");
         spriteImg.load("mesh" + std::to_string(type) + ".png");
     }
-
-
+    
+    
     jboolean inBounds(int x1, int y1) {
         // check id as well
-
+        
         if ((x1 < (x+w/2)) &&
             (x1 > (x-w/2)) &&
             (y1 < (y+w/2)) &&
@@ -317,24 +323,25 @@ public:
             return false;
         }
     }
-
+    
     void draw() {
         ofPushMatrix();
         //ofSetColor(color.r, color.g, color.b);
         ofSetColor(255, 255, 255);
         ofTranslate(x, y);
-
+        
         spriteImg.draw(0, 0, w, w);
 
         ofPopMatrix();
     }
 };
+*/
 
 class FluxlyMenuItem : public ofxBox2dRect {
 public:
     FluxlyMenuItem() {
     }
-
+    
     int type = 0;
     int id;
     int x;
@@ -347,7 +354,8 @@ public:
     ofImage myEyesOpen;
     ofImage myEyesClosed;
     bool eyeOpenState = false;
-
+    float retinaScale;
+    
     void init() {
         spriteImg.load(filename);
         spriteImg.getTexture().setTextureMinMagFilter(GL_NEAREST,GL_NEAREST);
@@ -357,13 +365,13 @@ public:
         //maxCount = ofRandom(10, 200);
         //color = ofColor(ofRandom(255),ofRandom(255),ofRandom(255));
     }
-
+    
     void reloadThumbnail() {
-        // ofLog(OF_LOG_VERBOSE, "Reload:"+filename);
+       // ofLog(OF_LOG_VERBOSE, "Reload:"+filename);
         spriteImg.load(filename);
     }
-
-   jboolean inBounds(int x1, int y1) {
+    
+    jboolean inBounds(int x1, int y1) {
         // check id as well
         //ofLog(OF_LOG_VERBOSE, "Checking: %d, %d vs %d, %d / %d, %d", x1, y1, (x),(y), (x+w),(y+h) );
         if ((x1 < (x+w)) &&
@@ -375,20 +383,20 @@ public:
             return false;
         }
     }
-
+    
     void drawWithOffset(int x1, int y1) {
         ofPushMatrix();
         //ofSetColor(color.r, color.g, color.b);
         ofSetColor(255, 255, 255);
         ofTranslate(x+x1, y+y1);
-
+        
         spriteImg.draw(0, 0, w, h);
         if (type == SAMPLE_MENU) {
             if (eyeOpenState) {
-                myEyesOpen.draw(0, 0, w, h);
-            } else {
-                myEyesClosed.draw(0, 0, w, h);
-            }
+              myEyesOpen.draw(0, 0, w, h);
+          } else {
+              myEyesClosed.draw(0, 0, w, h);
+          }
         }
         ofPopMatrix();
     }
@@ -418,9 +426,9 @@ public:
     int playY;
     int recX;
     int recY;
-    int playW = 60  ;
+    int playW = 100  ;
     int selected = -1;
-    int thumbW = 80;
+    int thumbW = 130;
 
     float soundWaveStep = .5;
     float soundWaveH = 100;
@@ -434,17 +442,21 @@ public:
     ofImage stopRecButton;
     ofImage stopPlayButton;
     ofImage recordDisabled;
-
+    
     vector<float> scopeArray;
-
+    
+    float retinaScale;
+    
     void init(int w1, int h1) {
         w = w1;
         h = h1;
         playX = w/3;
-        playY = 140;
+        playY = 225 * retinaScale;
         recX = w-w/3;
-        recY = 140;
-
+        recY = 225 * retinaScale;
+        thumbW *= retinaScale;
+        playW *= retinaScale;
+ 
         sampleThumb.load("mesh0.png");
         recordButton.load("consoleRec.png");
         playButton.load("consolePlay.png");
@@ -454,27 +466,28 @@ public:
         myEyesOpen.load("eyesOpen.png");
         myEyesClosed.load("eyesClosed.png");
         //ofLog(OF_LOG_VERBOSE, "Load Sample Console");
-
+       
     }
-
+    
     void setSelected(int m) {
         selected = m;
         sampleThumb.load("mesh"+to_string(m)+".png");
     }
-
+    
     int checkConsoleButtons(int x1, int y1) {
         int retval = 0;
-        if ((x1 < (playX + playW/4)) && (x1 > (playX-playW/4)) &&
-            (y1 < (playY + playW/4)) && (y1 > (playY - playW/4))) {
+        if ((x1 < (playX + playW/2)) && (x1 > (playX-playW/2)) &&
+            (y1 < (playY + playW/2)) && (y1 > (playY - playW/2))) {
             ofLog(OF_LOG_VERBOSE, "Touched Play %d", playing);
             if (!recording) {
                 playing = !playing;
                 retval = 1;
             }
         }
+#ifndef FLUXLY_FREE
         if (selected > 14) {
-            if ((x1 < (recX + playW/4)) && (x1 > (recX - playW/4)) &&
-                (y1 < (recY + playW/4)) && (y1 > (recY - playW/4))) {
+            if ((x1 < (recX + playW/2)) && (x1 > (recX - playW/2)) &&
+                (y1 < (recY + playW/2)) && (y1 > (recY - playW/2))) {
                 ofLog(OF_LOG_VERBOSE, "Touched Rec" );
                 if (!playing) {
                     recording = !recording;
@@ -482,9 +495,10 @@ public:
                 }
             }
         }
+#endif
         return retval;
     }
-
+    
     void drawSoundWave(int stroke) {
         // note that translate was done previous to call
         ofSetLineWidth(stroke);
@@ -493,15 +507,15 @@ public:
         soundWaveStart = -w/2;
         float x1 = soundWaveStart;
         ofSetColor(ofColor::fromHex(0xffffff));
-
+       
         for(int j = 0; j < scopeArray.size()-1; j++) {
-            ofDrawLine(x1,scopeArray[j]*soundWaveH, x1+soundWaveStep,scopeArray[j+1]*soundWaveH);
-            //ofLog(OF_LOG_VERBOSE, "size %f" , x1);
-            x1 += soundWaveStep;
-        }
-        ofFill();
+                ofDrawLine(x1,scopeArray[j]*soundWaveH, x1+soundWaveStep,scopeArray[j+1]*soundWaveH);
+               //ofLog(OF_LOG_VERBOSE, "size %f" , x1);
+                x1 += soundWaveStep;
+         }
+         ofFill();
     }
-
+    
     void draw() {
         ofSetRectMode(OF_RECTMODE_CORNER);
         ofSetColor(10, 10, 10, 220);
@@ -509,7 +523,7 @@ public:
         ofPushMatrix();
         ofSetColor(255, 255, 255);
         ofSetRectMode(OF_RECTMODE_CENTER);
-        ofTranslate(w/2, 80);
+        ofTranslate(w/2, 120*retinaScale);
         if (playing || recording) drawSoundWave(1);
         sampleThumb.draw(0, 0, thumbW, thumbW);
         myEyesOpen.draw(0, 0, thumbW, thumbW);
@@ -524,15 +538,21 @@ public:
         ofPopMatrix();
         ofPushMatrix();
         ofTranslate(recX, recY);
+        
+#ifndef FLUXLY_FREE
         if (recording) {
             stopRecButton.draw(0, 0, playW, playW);
         } else {
             if (selected < 15) {
-                recordDisabled.draw(0, 0, playW, playW);
+               recordDisabled.draw(0, 0, playW, playW);
             } else {
                 recordButton.draw(0, 0, playW, playW);
             }
         }
+#endif
+#ifdef FLUXLY_FREE
+        recordDisabled.draw(0, 0, playW, playW);
+#endif
         ofPopMatrix();
     }
 };
@@ -550,6 +570,9 @@ public:
     int menuItemH;
     int menuOriginX = 0;
     int menuOriginY = 0;
+    int consoleH = 200;
+    int bankTitleW = 300;
+    int bankTitleH = 15;
     float menuX = 0;
     float menuY = 0;
     int menuW;
@@ -565,34 +588,42 @@ public:
     int margin = 1;
     int selected = 0;
     int circleToChange = -1;
-
+    
+    float retinaScale;
+    int bankMargin = 0;
+    
     ofImage title;
     ofImage bank0;
     ofImage bank1;
-
+    
     string menuFilename;
     string menuTitleFilename = "fluxlyTitle.png";
-
+  
     vector <shared_ptr<FluxlyMenuItem> > menuItems;
-
+    
     void initMenu( int t, int x1, int y1, int w1, int h1) {
         type = t;
         menuW = w1;
         menuH = h1;
         menuX = x1;
         menuY = y1;
+        consoleH = y1;
         menuOriginY = y1;
         menuOriginX = x1;
 
         if (type == SAMPLE_MENU) menuTitleH = 0;
-
+        
         bank0.load("bank0.png");
+        bank0.getTexture().setTextureMinMagFilter(GL_NEAREST,GL_NEAREST);
         bank1.load("bank1.png");
-
+        bank1.getTexture().setTextureMinMagFilter(GL_NEAREST,GL_NEAREST);
+        
         ofxXmlSettings menuSettings;
-        if (type == MAIN_MENU) menuFilename = "menuSettings.xml";
+        //if (type == MAIN_MENU) menuFilename = ofxiOSGetDocumentsDirectory()+"menuSettings.xml";
+        //if (type == SAMPLE_MENU) menuFilename = ofxiOSGetDocumentsDirectory()+"sampleSettings.xml";
+		if (type == MAIN_MENU) menuFilename = "menuSettings.xml";
         if (type == SAMPLE_MENU) menuFilename = "sampleSettings.xml";
-
+        
         if (menuSettings.loadFile(menuFilename)) {
             uniqueId = menuSettings.getValue("settings:uniqueId", 0);
             //ofLog(OF_LOG_VERBOSE, "UniqueId %d:",uniqueId);
@@ -610,7 +641,8 @@ public:
                     menuSettings.pushTag("menuItem", i);
                     m->id = menuSettings.getValue("id", 0);
                     //ofLog(OF_LOG_VERBOSE, "Id %d:",m->id);
-                    if (type == MAIN_MENU)  m->filename = menuSettings.getValue("img", "foo.png");
+                    //if (type == MAIN_MENU)  m->filename = ofxiOSGetDocumentsDirectory()+menuSettings.getValue("img", "foo.png");
+					if (type == MAIN_MENU)  m->filename = menuSettings.getValue("img", "foo.png");
                     if (type == SAMPLE_MENU)  m->filename = menuSettings.getValue("img", "foo.png");
                     //ofLog(OF_LOG_VERBOSE, m->filename);
                     m->link = menuSettings.getValue("link", "foo.xml");
@@ -621,58 +653,59 @@ public:
                 menuSettings.popTag();
             }
         }
-
+        
         title.load(menuTitleFilename);
         //title.getTexture().setTextureMinMagFilter(GL_NEAREST,GL_NEAREST);
         //Add menuItems
-
+        
         //int margin = (menuW-menuItemW*menuItemsPerRow)/(menuItemsPerRow+1);
         margin = 1;
-
+        
         if (type == MAIN_MENU) {
             menuItemsPerRow = 3;
             menuItemW = menuW/menuItemsPerRow-margin;
             menuItemH = menuH*((float)menuItemW/menuW);
-            float ratio =((float)menuItemW/menuW);
+            //float ratio =((float)menuItemW/menuW);
             //maxPanes = ceil(nMenuItems/menuItemsPerRow);
             maxPanes = 4;  // hardcoded for now
             //ofLog(OF_LOG_VERBOSE, "maxPanes %i", maxPanes);
         }
-
+        
         if (type == SAMPLE_MENU) {
             menuItemsPerRow = 5;
             menuItemW = menuW/menuItemsPerRow-margin;
             menuItemH = menuItemW;
             maxPanes = ceil(nMenuItems/menuItemsPerRow);
-            menuOriginY = CONSOLE_H;
+            menuOriginY = consoleH;
             //ofLog(OF_LOG_VERBOSE, "maxPanes %i", maxPanes);
         }
-
+        
         int rows = nMenuItems/menuItemsPerRow+1;
-        int bankMargin = 0;
-
+        
         for (int row=0; row < rows; row++) {
             for (int col=0; col < menuItemsPerRow; col++) {
                 int index = col+row*menuItemsPerRow;
                 if (index < nMenuItems) {
                     if (type == SAMPLE_MENU) {
                         if (index > 14) {
-                            bankMargin = 40;
+                            bankMargin = bankTitleH*2*retinaScale;
                         } else {
-                            bankMargin = 20;
+                            bankMargin = bankTitleH*retinaScale;
                         }
                     }
-                    menuItems[index]->type = type;
-                    menuItems[index]->w = menuItemW;
-                    menuItems[index]->h = menuItemH;
-                    menuItems[index]->x = margin+col*(menuItemW + margin);
-                    menuItems[index]->y = margin+row * (menuItemH+margin)+menuTitleH+1+ bankMargin;
-                    //ofLog(OF_LOG_VERBOSE, "Menu Item X, Y %d, %d:",menuItems[col+row*menuItemsPerRow]->x, menuItems[col+row*menuItemsPerRow]->y);
+                  menuItems[index]->type = type;
+                  menuItems[index]->w = menuItemW;
+                  menuItems[index]->h = menuItemH;
+                  menuItems[index]->x = margin+col*(menuItemW + margin);
+                  menuItems[index]->y = margin+row * (menuItemH+margin)+menuTitleH+1+ bankMargin*2;
+                  //ofLog(OF_LOG_VERBOSE, "bankMargin, y , scale %d %d %f",bankMargin,menuItems[index]->y, retinaScale );
+                    
+                  //ofLog(OF_LOG_VERBOSE, "Menu Item X, Y %d, %d:",menuItems[col+row*menuItemsPerRow]->x, menuItems[col+row*menuItemsPerRow]->y);
                 }
             }
         }
     }
-
+    
     void changePaneState(int dir) {
         int newPaneState = currentPane - dir;
         //ofLog(OF_LOG_VERBOSE, "New pane state: %i", newPaneState);
@@ -698,23 +731,23 @@ public:
             if ((newPaneState > 0) && (newPaneState < maxPanes)) {
                 if (newPaneState == 1) {
                     menuOriginX = 0;
-                    menuOriginY = CONSOLE_H;    // consoleH
+                    menuOriginY = consoleH;    // consoleH
                 }
                 if (newPaneState == 2) {
                     menuOriginX = 0;
-                    menuOriginY = 3*(-menuItemH)- 3 * margin-23 + CONSOLE_H;    // + consoleH
+                    menuOriginY = 3*(-menuItemH)- 4 * margin-bankMargin + consoleH;    // + consoleH
                 }
                 currentPane = newPaneState;
             }
         }
     }
-
+    
     void drawBorder(int index) {
         if (index >=0) {
-            menuItems[index]->drawBorderWithOffset(menuX, menuY);
+           menuItems[index]->drawBorderWithOffset(menuX, menuY);
         }
     }
-
+    
     void updateScrolling() {
         if (type == MAIN_MENU) {
             // vertical scroll
@@ -747,10 +780,10 @@ public:
             }
         }
     }
-
+    
     int checkMenuTouch( int x1, int y1) {
         int retval = -1;
-        if ((type == MAIN_MENU) || ((type == SAMPLE_MENU) && (y1 > CONSOLE_H))) {
+        if ((type == MAIN_MENU) || ((type == SAMPLE_MENU) && (y1 > consoleH))) {
             for (int i=0; i<nMenuItems; i++) {
                 if (menuItems[i].get()->inBounds(x1-menuX, y1-menuY)) {
                     ofLog(OF_LOG_VERBOSE, "Touched %d", menuItems[i].get()->id);
@@ -760,7 +793,7 @@ public:
         }
         return retval;
     }
-
+    
     void updateEyeState() {
         for (int i=0; i<nMenuItems; i++) {
             if (i == selected) {
@@ -781,8 +814,13 @@ public:
         }
         if (type == SAMPLE_MENU) {
             ofSetRectMode(OF_RECTMODE_CENTER);
-            bank0.draw(menuW/2, menuY+10, 200, 10);
-            bank1.draw(menuW/2, menuY+3*menuItems[0].get()->h+10+25, 200, 10);
+            bank0.draw(menuW/2, menuY+bankTitleH*retinaScale, bankTitleW*retinaScale, bankTitleH*retinaScale);
+            bank1.draw(menuW/2, menuY+3*menuItems[0].get()->h+bankMargin+bankMargin/2, bankTitleW*retinaScale, bankTitleH*retinaScale);
+#ifdef FLUXLY_FREE
+            ofSetRectMode(OF_RECTMODE_CORNER);
+            ofSetColor(10, 10, 10, 220);
+            ofDrawRectangle(0, menuY+3*menuItems[0].get()->h+10+12, menuW, menuH);
+#endif
             ofSetRectMode(OF_RECTMODE_CORNER);
         }
     }

@@ -50,6 +50,7 @@ model {
         cppFlags.add("-I${file("/usr/local/opt/icu4c/include")}".toString())
         cppFlags.add("-I${file("../../../libs/openFrameworks/")}".toString())
         ldFlags.add("-L${file("/usr/local/opt/icu4c/lib")}".toString())
+        ldFlags.add("-llog".toString())
     }
 
     android.sources {

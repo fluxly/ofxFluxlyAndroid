@@ -1,22 +1,22 @@
-#N canvas 859 38 396 675 10;
-#X obj 45 282 tgl 15 0 toggle0 empty empty 17 7 0 10 -258113 -1 -1
+#N canvas 375 34 379 590 10;
+#X obj 45 197 tgl 15 0 toggle0 empty empty 17 7 0 10 -258113 -1 -1
 0 1;
-#X obj 60 282 tgl 15 0 toggle1 empty empty 17 7 0 10 -260097 -1 -1
+#X obj 60 197 tgl 15 0 toggle1 empty empty 17 7 0 10 -260097 -1 -1
 0 1;
-#X obj 75 282 tgl 15 0 toggle2 empty empty 17 7 0 10 -257985 -1 -1
+#X obj 75 197 tgl 15 0 toggle2 empty empty 17 7 0 10 -257985 -1 -1
 0 1;
-#X obj 90 282 tgl 15 0 toggle3 empty empty 17 7 0 10 -4034 -1 -1 0
+#X obj 90 197 tgl 15 0 toggle3 empty empty 17 7 0 10 -4034 -1 -1 0
 1;
-#X obj 105 282 tgl 15 0 toggle4 empty empty 17 7 0 10 -4032 -1 -1 0
+#X obj 105 197 tgl 15 0 toggle4 empty empty 17 7 0 10 -4032 -1 -1 0
 1;
-#X obj 120 282 tgl 15 0 toggle5 empty empty 17 7 0 10 -4160 -1 -1 0
+#X obj 120 197 tgl 15 0 toggle5 empty empty 17 7 0 10 -4160 -1 -1 0
 1;
-#X obj 50 230 hsl 120 15 0 2 0 0 masterTempo masterTempoIn empty -2
+#X obj 50 145 hsl 120 15 0 2 0 0 masterTempo masterTempoIn empty -2
 -8 0 10 -99865 -257985 -1 0 1;
-#X floatatom 46 250 5 0 0 0 - - -, f 5;
-#X obj 69 468 loadbang;
-#X obj 69 555 s masterVolume;
-#N canvas 57 23 1295 690 scopes 0;
+#X floatatom 46 165 5 0 0 0 - - -, f 5;
+#X obj 69 383 loadbang;
+#X obj 69 470 s masterVolume;
+#N canvas 30 23 1295 691 scopes 0;
 #X obj 48 73 clip~ -1 1;
 #X obj 80 102 loadbang;
 #X obj 85 152 metro 100;
@@ -179,29 +179,29 @@
 #X connect 76 0 74 0;
 #X connect 78 0 72 0;
 #X connect 78 0 79 0;
-#X restore 47 132 pd scopes;
-#X obj 103 532 s masterTempo;
-#X obj 135 282 tgl 15 0 toggle6 empty empty 17 7 0 10 -203904 -1 -1
+#X restore 47 47 pd scopes;
+#X obj 103 447 s masterTempo;
+#X obj 135 197 tgl 15 0 toggle6 empty empty 17 7 0 10 -203904 -1 -1
 0 1;
-#X obj 149 282 tgl 15 0 toggle7 empty empty 17 7 0 10 -159808 -1 -1
+#X obj 149 197 tgl 15 0 toggle7 empty empty 17 7 0 10 -159808 -1 -1
 0 1;
-#X obj 60 300 vsl 15 128 0 8 0 0 tempo1 empty empty 0 -9 0 10 -262144
+#X obj 60 215 vsl 15 128 0 8 0 0 tempo1 empty empty 0 -9 0 10 -262144
 -1 -1 0 1;
-#X obj 45 300 vsl 15 128 0 8 0 0 tempo0 empty empty 0 -9 0 10 -262144
+#X obj 45 215 vsl 15 128 0 8 0 0 tempo0 empty empty 0 -9 0 10 -262144
 -1 -1 0 1;
-#X obj 75 300 vsl 15 128 0 8 0 0 tempo2 empty empty 0 -9 0 10 -262144
+#X obj 75 215 vsl 15 128 0 8 0 0 tempo2 empty empty 0 -9 0 10 -262144
 -1 -1 0 1;
-#X obj 90 300 vsl 15 128 0 8 0 0 tempo3 empty empty 0 -9 0 10 -262144
+#X obj 90 215 vsl 15 128 0 8 0 0 tempo3 empty empty 0 -9 0 10 -262144
 -1 -1 0 1;
-#X obj 105 300 vsl 15 128 0 8 0 0 tempo4 empty empty 0 -9 0 10 -262144
+#X obj 105 215 vsl 15 128 0 8 0 0 tempo4 empty empty 0 -9 0 10 -262144
 -1 -1 0 1;
-#X obj 119 300 vsl 15 128 0 8 0 0 tempo5 empty empty 0 -9 0 10 -262144
+#X obj 119 215 vsl 15 128 0 8 0 0 tempo5 empty empty 0 -9 0 10 -262144
 -1 -1 0 1;
-#X obj 134 300 vsl 15 128 0 8 0 0 tempo6 empty empty 0 -9 0 10 -262144
+#X obj 134 215 vsl 15 128 0 8 0 0 tempo6 empty empty 0 -9 0 10 -262144
 -1 -1 0 1;
-#X obj 149 300 vsl 15 128 0 8 0 0 tempo7 empty empty 0 -9 0 10 -262144
+#X obj 149 215 vsl 15 128 0 8 0 0 tempo7 empty empty 0 -9 0 10 -262144
 -1 -1 0 1;
-#N canvas 88 66 800 643 yak-shaver 0;
+#N canvas 523 34 800 643 yak-shaver 1;
 #X obj 44 73 tgl 15 0 empty toggle0 empty 17 7 0 10 -258113 -1 -1 0
 1;
 #X obj 43 26 r control0;
@@ -209,7 +209,7 @@
 #X obj 103 51 r tempo0;
 #X floatatom 103 73 5 0 0 0 - - -, f 5;
 #X msg 74 101 1;
-#N canvas 402 70 946 646 yak-channel0 0;
+#N canvas 84 75 946 646 yak-channel0 0;
 #X obj 16 31 inlet;
 #X obj 147 25 inlet;
 #X obj 148 160 phasor~;
@@ -250,7 +250,8 @@
 #X obj 214 238 tabread4~ buffer0;
 #X obj 154 54 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 374 132 print \$1;
+#X obj 192 130 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
 #X connect 0 0 8 0;
 #X connect 1 0 7 0;
 #X connect 2 0 3 0;
@@ -274,14 +275,15 @@
 #X connect 24 0 27 0;
 #X connect 25 0 26 0;
 #X connect 28 0 3 1;
+#X connect 28 0 35 0;
 #X connect 29 0 7 1;
 #X connect 29 0 34 0;
 #X connect 30 0 20 0;
 #X connect 31 0 30 0;
-#X connect 31 0 35 0;
 #X connect 32 0 31 0;
 #X connect 33 0 4 1;
 #X connect 34 0 7 0;
+#X connect 35 0 3 0;
 #X restore 45 136 pd yak-channel0;
 #X obj 132 94 r filename0;
 #X obj 212 73 tgl 15 0 empty toggle1 empty 17 7 0 10 -260097 -1 -1
@@ -354,7 +356,7 @@
 #X floatatom 363 296 5 0 0 0 - - -, f 5;
 #X obj 396 79 makefilename %s;
 #X obj 395 55 symbol \$1;
-#X obj 195 111 r samples1;
+#X obj 236 116 r samples1;
 #X obj 214 238 tabread4~ buffer1;
 #X obj 363 329 s samples1;
 #X obj 440 328 s step1;
@@ -362,6 +364,8 @@
 #X obj 187 35 r step1;
 #X obj 157 52 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
+#X obj 202 137 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
 #X connect 0 0 8 0;
 #X connect 1 0 7 0;
 #X connect 2 0 3 0;
@@ -387,11 +391,13 @@
 #X connect 26 0 32 0;
 #X connect 27 0 26 0;
 #X connect 28 0 3 1;
+#X connect 28 0 35 0;
 #X connect 29 0 4 1;
 #X connect 32 0 20 0;
 #X connect 33 0 7 1;
 #X connect 33 0 34 0;
 #X connect 34 0 7 0;
+#X connect 35 0 3 0;
 #X restore 213 136 pd yak-channel1;
 #X obj 213 166 throw~ scope1;
 #X obj 440 51 r tempo2;
@@ -429,7 +435,7 @@
 #X floatatom 363 296 5 0 0 0 - - -, f 5;
 #X obj 396 79 makefilename %s;
 #X obj 395 55 symbol \$1;
-#X obj 195 111 r samples2;
+#X obj 232 116 r samples2;
 #X obj 214 238 tabread4~ buffer2;
 #X obj 363 329 s samples2;
 #X obj 440 328 s step2;
@@ -437,6 +443,8 @@
 #X obj 193 30 r step2;
 #X obj 159 51 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
+#X obj 201 137 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
 #X connect 0 0 8 0;
 #X connect 1 0 7 0;
 #X connect 2 0 3 0;
@@ -462,11 +470,13 @@
 #X connect 26 0 32 0;
 #X connect 27 0 26 0;
 #X connect 28 0 3 1;
+#X connect 28 0 35 0;
 #X connect 29 0 4 1;
 #X connect 32 0 20 0;
 #X connect 33 0 7 1;
 #X connect 33 0 34 0;
 #X connect 34 0 7 0;
+#X connect 35 0 3 0;
 #X restore 382 136 pd yak-channel2;
 #X obj 382 166 throw~ scope2;
 #X obj 609 52 r tempo3;
@@ -506,12 +516,14 @@
 #X obj 395 55 symbol \$1;
 #X obj 191 33 r step3;
 #X obj 214 238 tabread4~ buffer3;
-#X obj 195 111 r samples3;
+#X obj 235 118 r samples3;
 #X msg 439 155 read -resize \$1 buffer3;
 #X obj 440 328 s step3;
 #X obj 363 329 s samples3;
 #X obj 156 51 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
+#X obj 201 144 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
 #X connect 0 0 8 0;
 #X connect 1 0 7 0;
 #X connect 2 0 3 0;
@@ -540,8 +552,10 @@
 #X connect 28 0 34 0;
 #X connect 29 0 4 1;
 #X connect 30 0 3 1;
+#X connect 30 0 35 0;
 #X connect 31 0 20 0;
 #X connect 34 0 7 0;
+#X connect 35 0 3 0;
 #X restore 551 137 pd yak-channel3;
 #X obj 551 167 throw~ scope3;
 #X obj 105 256 r tempo4;
@@ -582,11 +596,13 @@
 #X obj 214 238 tabread4~ buffer4;
 #X obj 363 329 s samples4;
 #X obj 440 328 s step4;
-#X obj 195 111 r samples4;
+#X obj 266 123 r samples4;
 #X obj 195 32 r step4;
 #X msg 439 155 read -resize \$1 buffer4;
 #X obj 158 52 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
+#X obj 210 142 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
 #X connect 0 0 8 0;
 #X connect 1 0 7 0;
 #X connect 2 0 3 0;
@@ -613,10 +629,12 @@
 #X connect 27 0 26 0;
 #X connect 28 0 4 1;
 #X connect 31 0 3 1;
+#X connect 31 0 35 0;
 #X connect 32 0 7 1;
 #X connect 32 0 34 0;
 #X connect 33 0 20 0;
 #X connect 34 0 7 0;
+#X connect 35 0 3 0;
 #X restore 47 341 pd yak-channel4;
 #X obj 47 371 throw~ scope4;
 #X obj 273 256 r tempo5;
@@ -656,12 +674,14 @@
 #X obj 395 55 symbol \$1;
 #X obj 197 34 r step5;
 #X obj 214 238 tabread4~ buffer5;
-#X obj 195 111 r samples5;
+#X obj 243 108 r samples5;
 #X obj 363 329 s samples5;
 #X obj 440 328 s step5;
 #X msg 439 155 read -resize \$1 buffer5;
 #X obj 161 51 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
+#X obj 207 136 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
 #X connect 0 0 8 0;
 #X connect 1 0 7 0;
 #X connect 2 0 3 0;
@@ -690,8 +710,10 @@
 #X connect 28 0 34 0;
 #X connect 29 0 4 1;
 #X connect 30 0 3 1;
+#X connect 30 0 35 0;
 #X connect 33 0 20 0;
 #X connect 34 0 7 0;
+#X connect 35 0 3 0;
 #X restore 215 341 pd yak-channel5;
 #X obj 215 371 throw~ scope5;
 #X obj 442 256 r tempo6;
@@ -729,7 +751,7 @@
 #X floatatom 363 296 5 0 0 0 - - -, f 5;
 #X obj 396 79 makefilename %s;
 #X obj 395 55 symbol \$1;
-#X obj 195 111 r samples6;
+#X obj 263 110 r samples6;
 #X obj 214 238 tabread4~ buffer6;
 #X obj 363 329 s samples6;
 #X obj 440 328 s step6;
@@ -737,6 +759,8 @@
 #X msg 439 155 read -resize \$1 buffer6;
 #X obj 162 52 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
+#X obj 210 139 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
 #X connect 0 0 8 0;
 #X connect 1 0 7 0;
 #X connect 2 0 3 0;
@@ -762,11 +786,13 @@
 #X connect 26 0 33 0;
 #X connect 27 0 26 0;
 #X connect 28 0 3 1;
+#X connect 28 0 35 0;
 #X connect 29 0 4 1;
 #X connect 32 0 7 1;
 #X connect 32 0 34 0;
 #X connect 33 0 20 0;
 #X connect 34 0 7 0;
+#X connect 35 0 3 0;
 #X restore 384 341 pd yak-channel6;
 #X obj 384 371 throw~ scope6;
 #X obj 611 257 r tempo7;
@@ -804,7 +830,7 @@
 #X floatatom 363 296 5 0 0 0 - - -, f 5;
 #X obj 396 79 makefilename %s;
 #X obj 395 55 symbol \$1;
-#X obj 195 111 r samples7;
+#X obj 242 117 r samples7;
 #X obj 214 238 tabread4~ buffer7;
 #X obj 363 329 s samples7;
 #X obj 440 328 s step7;
@@ -812,6 +838,8 @@
 #X msg 439 155 read -resize \$1 buffer7;
 #X obj 157 49 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
+#X obj 204 144 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
 #X connect 0 0 8 0;
 #X connect 1 0 7 0;
 #X connect 2 0 3 0;
@@ -837,11 +865,13 @@
 #X connect 26 0 33 0;
 #X connect 27 0 26 0;
 #X connect 28 0 3 1;
+#X connect 28 0 35 0;
 #X connect 29 0 4 1;
 #X connect 32 0 7 1;
 #X connect 32 0 34 0;
 #X connect 33 0 20 0;
 #X connect 34 0 7 0;
+#X connect 35 0 3 0;
 #X restore 553 342 pd yak-channel7;
 #X obj 553 372 throw~ scope7;
 #X obj 52 472 tgl 15 0 empty togglePreview empty 17 7 0 10 -262144
@@ -885,7 +915,7 @@
 #X obj 396 79 makefilename %s;
 #X obj 395 55 symbol \$1;
 #X obj 193 37 r stepPreview;
-#X obj 195 111 r samplesPreview;
+#X obj 254 111 r samplesPreview;
 #X obj 214 238 tabread4~ previewBuffer;
 #X msg 438 155 read -resize \$1 previewBuffer;
 #X obj 475 349 s stepPreview;
@@ -899,6 +929,8 @@
 #X msg 670 414 0;
 #X obj 161 52 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
+#X obj 210 140 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
 #X connect 0 0 8 0;
 #X connect 1 0 7 0;
 #X connect 2 0 3 0;
@@ -924,6 +956,7 @@
 #X connect 27 0 7 1;
 #X connect 27 0 40 0;
 #X connect 28 0 3 1;
+#X connect 28 0 41 0;
 #X connect 29 0 4 1;
 #X connect 30 0 19 0;
 #X connect 33 0 35 0;
@@ -931,6 +964,7 @@
 #X connect 36 0 37 0;
 #X connect 39 0 38 0;
 #X connect 40 0 7 0;
+#X connect 41 0 3 0;
 #X restore 52 535 pd yak-channelPreview;
 #X connect 0 0 5 0;
 #X connect 0 0 6 0;
@@ -1004,8 +1038,8 @@
 #X connect 68 0 65 0;
 #X connect 69 0 71 3;
 #X connect 71 0 70 0;
-#X restore 48 108 pd yak-shaver;
-#N canvas 301 23 1004 690 output-stage 1;
+#X restore 48 23 pd yak-shaver;
+#N canvas 301 23 1004 698 output-stage 0;
 #X obj 267 203 r masterVolume;
 #N canvas 381 87 381 409 channel0 0;
 #X obj 96 15 catch~ audioOut0;
@@ -1374,6 +1408,7 @@
 #X msg 709 442 1;
 #X msg 714 369 1;
 #X obj 457 534 r previewOffOn;
+#X obj 162 436 fdn~;
 #X connect 0 0 37 0;
 #X connect 0 0 39 0;
 #X connect 1 0 2 0;
@@ -1394,12 +1429,8 @@
 #X connect 9 1 3 0;
 #X connect 10 0 2 0;
 #X connect 10 1 3 0;
-#X connect 11 0 13 0;
-#X connect 12 0 13 1;
-#X connect 13 0 33 0;
-#X connect 13 1 34 0;
-#X connect 14 0 13 0;
-#X connect 15 0 13 0;
+#X connect 11 0 33 0;
+#X connect 12 0 34 0;
 #X connect 16 0 14 0;
 #X connect 16 0 17 0;
 #X connect 16 0 21 0;
@@ -1435,8 +1466,8 @@
 #X connect 54 0 53 0;
 #X connect 55 0 51 0;
 #X connect 56 0 46 0;
-#X restore 46 184 pd output-stage;
-#X text 46 214 master-tempo;
+#X restore 46 99 pd output-stage;
+#X text 46 129 master-tempo;
 #N canvas 107 96 400 326 load-default 0;
 #X obj 128 16 inlet;
 #X obj 92 106 s filename0;
@@ -1475,8 +1506,8 @@
 #X connect 18 0 7 0;
 #X connect 18 0 8 0;
 #X connect 18 0 1 0;
-#X restore 41 578 pd load-default;
-#N canvas 130 47 1236 669 input-stage 0;
+#X restore 41 493 pd load-default;
+#N canvas 130 53 1236 669 input-stage 1;
 #X obj 182 63 inlet;
 #X obj 313 57 inlet;
 #X obj 314 192 phasor~;
@@ -1502,7 +1533,6 @@
 #X obj 330 83 r step3;
 #X obj 361 143 r samples3;
 #X obj 686 96 tabwrite~ inputBuffer;
-#X obj 685 51 adc~;
 #X msg 722 52 start;
 #X msg 767 52 stop;
 #X msg 845 94 \; inputBuffer resize 400000;
@@ -1539,10 +1569,14 @@
 #X obj 375 559 tabwrite~ inputScope;
 #X obj 535 101 throw~ inputScope;
 #X text 82 133 DELETE THIS UNUSED SECTION;
+#X obj 820 62 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 650 31 adc~ 1;
+#X obj 656 59 *~ 0.5;
 #X connect 0 0 8 0;
 #X connect 1 0 7 0;
 #X connect 2 0 3 0;
-#X connect 3 0 30 0;
+#X connect 3 0 29 0;
 #X connect 4 0 10 0;
 #X connect 5 0 4 0;
 #X connect 7 0 15 0;
@@ -1556,51 +1590,54 @@
 #X connect 18 0 7 1;
 #X connect 19 0 3 1;
 #X connect 21 0 20 0;
-#X connect 21 0 53 0;
+#X connect 21 0 38 0;
 #X connect 22 0 20 0;
+#X connect 22 0 42 0;
 #X connect 22 0 39 0;
-#X connect 23 0 20 0;
-#X connect 23 0 43 0;
-#X connect 23 0 40 0;
+#X connect 26 0 21 0;
+#X connect 26 0 54 0;
 #X connect 27 0 22 0;
 #X connect 28 0 23 0;
-#X connect 29 0 24 0;
-#X connect 30 0 4 1;
-#X connect 31 0 36 0;
+#X connect 29 0 4 1;
+#X connect 30 0 35 0;
+#X connect 31 0 30 0;
 #X connect 32 0 31 0;
-#X connect 33 0 32 0;
-#X connect 34 0 35 0;
-#X connect 36 0 26 0;
-#X connect 37 0 38 0;
-#X connect 38 0 42 0;
-#X connect 39 0 37 0;
-#X connect 42 0 44 0;
-#X connect 43 0 37 1;
-#X connect 44 0 41 0;
-#X connect 45 0 52 0;
-#X connect 46 0 49 0;
-#X connect 47 0 52 0;
-#X connect 49 0 47 0;
-#X connect 51 0 45 0;
-#X restore 48 157 pd input-stage;
-#X msg 69 508 1;
-#X msg 103 509 1;
-#X obj 242 191 s filename0;
-#X msg 242 167 sample0.wav;
-#X msg 239 542 sample0.wav;
-#X msg 239 489 sample0.wav;
-#X obj 242 244 s filename1;
-#X obj 241 299 s filename2;
-#X obj 241 352 s filename3;
-#X obj 240 405 s filename4;
-#X obj 240 458 s filename5;
-#X msg 240 434 sample0.wav;
-#X msg 240 381 sample0.wav;
-#X msg 241 328 sample0.wav;
-#X msg 241 275 sample0.wav;
-#X msg 242 220 sample0.wav;
-#X obj 239 513 s filename6;
-#X obj 239 566 s filename7;
+#X connect 33 0 34 0;
+#X connect 35 0 25 0;
+#X connect 36 0 37 0;
+#X connect 37 0 41 0;
+#X connect 38 0 36 0;
+#X connect 41 0 43 0;
+#X connect 42 0 36 1;
+#X connect 43 0 40 0;
+#X connect 44 0 51 0;
+#X connect 45 0 48 0;
+#X connect 46 0 51 0;
+#X connect 48 0 46 0;
+#X connect 50 0 44 0;
+#X connect 54 0 23 0;
+#X connect 55 0 52 0;
+#X connect 55 0 56 0;
+#X connect 56 0 20 0;
+#X restore 48 72 pd input-stage;
+#X msg 69 423 1;
+#X msg 103 424 1;
+#X obj 242 106 s filename0;
+#X msg 242 82 sample0.wav;
+#X msg 239 457 sample0.wav;
+#X msg 239 404 sample0.wav;
+#X obj 242 159 s filename1;
+#X obj 241 214 s filename2;
+#X obj 241 267 s filename3;
+#X obj 240 320 s filename4;
+#X obj 240 373 s filename5;
+#X msg 240 349 sample0.wav;
+#X msg 240 296 sample0.wav;
+#X msg 241 243 sample0.wav;
+#X msg 241 190 sample0.wav;
+#X msg 242 135 sample0.wav;
+#X obj 239 428 s filename6;
+#X obj 239 481 s filename7;
 #X connect 6 0 7 0;
 #X connect 8 0 27 0;
 #X connect 8 0 28 0;
@@ -1615,4 +1652,4 @@
 #X connect 40 0 35 0;
 #X connect 41 0 34 0;
 #X connect 42 0 33 0;
-#X coords 0 675 1 674 85 60 0;
+#X coords 0 590 1 589 85 60 0;

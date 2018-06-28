@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/build/intermediates/incremental/mergeArm7DebugResources/merged.dir/values-v14/values-v14.xml",
+        "outputFile": "/Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroidGithub/build/intermediates/incremental/mergeArm7DebugResources/merged.dir/values-v14/values-v14.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 204
                 },
                 "from": {
-                    "file": "/Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/res/values-v14/styles.xml",
+                    "file": "/Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroidGithub/res/values-v14/styles.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,

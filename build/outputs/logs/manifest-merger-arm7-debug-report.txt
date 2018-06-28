@@ -1,60 +1,62 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/AndroidManifest.xml:2:1-30:12
+ADDED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroidGithub/AndroidManifest.xml:2:1-31:12
 	package
-		ADDED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/AndroidManifest.xml:3:5-49
+		ADDED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroidGithub/AndroidManifest.xml:3:5-49
 	android:versionName
-		INJECTED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/AndroidManifest.xml
-		INJECTED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/AndroidManifest.xml
+		INJECTED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroidGithub/AndroidManifest.xml
+		INJECTED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroidGithub/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/AndroidManifest.xml:2:11-69
+		ADDED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroidGithub/AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/AndroidManifest.xml
-		INJECTED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/AndroidManifest.xml
+		INJECTED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroidGithub/AndroidManifest.xml
+		INJECTED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroidGithub/AndroidManifest.xml
 	android:installLocation
-		ADDED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/AndroidManifest.xml:4:5-45
+		ADDED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroidGithub/AndroidManifest.xml:4:5-45
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/AndroidManifest.xml:10:5-70
+ADDED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroidGithub/AndroidManifest.xml:10:5-70
 	android:name
-		ADDED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/AndroidManifest.xml:10:22-68
+		ADDED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroidGithub/AndroidManifest.xml:10:22-68
 application
-ADDED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/AndroidManifest.xml:12:5-28:19
+ADDED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroidGithub/AndroidManifest.xml:12:5-29:19
 	android:label
-		ADDED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/AndroidManifest.xml:15:9-41
+		ADDED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroidGithub/AndroidManifest.xml:15:9-41
 	android:allowBackup
-		ADDED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/AndroidManifest.xml:13:9-35
+		ADDED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroidGithub/AndroidManifest.xml:13:9-35
 	android:icon
-		ADDED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/AndroidManifest.xml:14:9-45
+		ADDED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroidGithub/AndroidManifest.xml:14:9-45
 	android:theme
-		ADDED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/AndroidManifest.xml:16:9-40
+		ADDED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroidGithub/AndroidManifest.xml:16:9-40
 activity#cc.openframeworks.ofxFluxlyAndroid.OFActivity
-ADDED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/AndroidManifest.xml:20:9-27:20
+ADDED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroidGithub/AndroidManifest.xml:20:9-28:20
+	android:screenOrientation
+		ADDED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroidGithub/AndroidManifest.xml:22:4-40
 	android:label
-		ADDED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/AndroidManifest.xml:22:13-45
+		ADDED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroidGithub/AndroidManifest.xml:23:13-35
 	android:configChanges
-		ADDED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/AndroidManifest.xml:22:47-93
+		ADDED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroidGithub/AndroidManifest.xml:23:37-98
 	android:name
-		ADDED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/AndroidManifest.xml:21:13-73
+		ADDED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroidGithub/AndroidManifest.xml:21:13-73
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/AndroidManifest.xml:23:13-26:29
+ADDED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroidGithub/AndroidManifest.xml:24:13-27:29
 action#android.intent.action.MAIN
-ADDED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/AndroidManifest.xml:24:17-69
+ADDED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroidGithub/AndroidManifest.xml:25:17-69
 	android:name
-		ADDED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/AndroidManifest.xml:24:25-66
+		ADDED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroidGithub/AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/AndroidManifest.xml:25:17-77
+ADDED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroidGithub/AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/AndroidManifest.xml:25:27-74
+		ADDED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroidGithub/AndroidManifest.xml:26:27-74
 uses-sdk
-INJECTED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [ofxFluxlyAndroid2:ofAndroidLib:unspecified] /Users/as220/_openFrameworksAndroid/addons/ofxAndroid/ofAndroidLib/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroidGithub/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [ofxFluxlyAndroidGithub:ofAndroidLib:unspecified] /Users/as220/_openFrameworksAndroid/addons/ofxAndroid/ofAndroidLib/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
 	android:targetSdkVersion
-		INJECTED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/AndroidManifest.xml
-		INJECTED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/AndroidManifest.xml
+		INJECTED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroidGithub/AndroidManifest.xml
+		INJECTED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroidGithub/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/AndroidManifest.xml
-		INJECTED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroid2/AndroidManifest.xml
+		INJECTED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroidGithub/AndroidManifest.xml
+		INJECTED from /Users/as220/_openFrameworksAndroid/apps/myApps/ofxFluxlyAndroidGithub/AndroidManifest.xml
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from [ofxFluxlyAndroid2:ofAndroidLib:unspecified] /Users/as220/_openFrameworksAndroid/addons/ofxAndroid/ofAndroidLib/build/intermediates/bundles/default/AndroidManifest.xml:11:5-81
+ADDED from [ofxFluxlyAndroidGithub:ofAndroidLib:unspecified] /Users/as220/_openFrameworksAndroid/addons/ofxAndroid/ofAndroidLib/build/intermediates/bundles/default/AndroidManifest.xml:11:5-81
 	android:name
-		ADDED from [ofxFluxlyAndroid2:ofAndroidLib:unspecified] /Users/as220/_openFrameworksAndroid/addons/ofxAndroid/ofAndroidLib/build/intermediates/bundles/default/AndroidManifest.xml:11:22-78
+		ADDED from [ofxFluxlyAndroidGithub:ofAndroidLib:unspecified] /Users/as220/_openFrameworksAndroid/addons/ofxAndroid/ofAndroidLib/build/intermediates/bundles/default/AndroidManifest.xml:11:22-78
