@@ -3,6 +3,7 @@
         <fluxlyMajorVersion>1</fluxlyMajorVersion>
         <fluxlyMinorVersion>0</fluxlyMinorVersion>
         <backgroundId>5</backgroundId>
+    	<savedScreenW>320</savedScreenW>
     </settings>
     <circles>
         <circle>
@@ -21,7 +22,7 @@
             <connection4>-1</connection4>
             <x>59</x>
             <y>89</y>
-            <w>100</w>
+            <w>150</w>
             <rotation>-143.778656006</rotation>
         </circle>
         <circle>
@@ -40,7 +41,7 @@
             <connection4>-1</connection4>
             <x>62</x>
             <y>356</y>
-            <w>100</w>
+            <w>150</w>
             <rotation>-305.257690430</rotation>
         </circle>
         <circle>
@@ -59,7 +60,7 @@
             <connection4>-1</connection4>
             <x>267</x>
             <y>348</y>
-            <w>100</w>
+            <w>150</w>
             <rotation>101.380111694</rotation>
         </circle>
         <circle>
@@ -78,7 +79,7 @@
             <connection4>-1</connection4>
             <x>245</x>
             <y>80</y>
-            <w>100</w>
+            <w>150</w>
             <rotation>178.903533936</rotation>
         </circle>
         <circle>
@@ -97,7 +98,7 @@
             <connection4>-1</connection4>
             <x>147</x>
             <y>144</y>
-            <w>100</w>
+            <w>150</w>
             <rotation>365.405517578</rotation>
         </circle>
         <circle>
@@ -116,7 +117,7 @@
             <connection4>-1</connection4>
             <x>164</x>
             <y>412</y>
-            <w>100</w>
+            <w>150</w>
             <rotation>5693.369628906</rotation>
         </circle>
     </circles>

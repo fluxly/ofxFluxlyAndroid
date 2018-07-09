@@ -15,6 +15,9 @@
 //#define IOS
 #define ANDROID
 
+#define PHONE (0)
+#define TABLET (1)
+
 //#define FLUXLY_FREE (0)
 #define FLUXLY_STANDARD (1)
 //#define FLUXLY_PRO (2)
@@ -69,11 +72,11 @@ public:
     int touchId = -1;
     float rotation = 0.0;
     
-    int soundWaveStep = 2;
+    int soundWaveStep = 3;
     int soundWaveH = 100;
     int soundWaveStart = -512;
     int maxAnimationCount = 150;
-    int animationStep = 6;
+    int animationStep = 8;
     
     float prevTempo = 0;
     float tempo = 0;
@@ -100,7 +103,7 @@ public:
         vag.load("vag.ttf", 9);
         origType = type;
         setMesh();
-        soundWaveStart = soundWaveStart*retinaScale;
+        //soundWaveStart = -screenH;   // need *retinaScale;
         //soundWaveStep = soundWaveStep * retinaScale;
         
     }
@@ -158,7 +161,7 @@ public:
             sendTempo = false;
         }
         prevTempo = tempo;
-        if (abs(tempo) > 0.015) {
+        if (abs(tempo) > 0.05) {   // was .015 on iOS
             spinning = true;
         } else {
             spinning = false;
@@ -166,7 +169,7 @@ public:
     }
     
     void drawAnimation(int stroke) {
-      /*  x = ofxBox2dBaseShape::getPosition().x;
+        x = ofxBox2dBaseShape::getPosition().x;
         y = ofxBox2dBaseShape::getPosition().y;
         ofPushMatrix();
         ofTranslate(x, y);
@@ -188,11 +191,11 @@ public:
             count = 0;
         }
         
-        ofPopMatrix();*/
+        ofPopMatrix();
     }
     
     void drawSoundWave(int stroke) {
-       /* ofPushMatrix();
+        ofPushMatrix();
         ofTranslate(x, y);
         ofRotate(getRotation(), 0, 0, 1);
         ofSetLineWidth(stroke*retinaScale);
@@ -210,7 +213,7 @@ public:
         } else {
             count = 0;
         }
-        ofPopMatrix();*/
+        ofPopMatrix();
 
     }
     
@@ -267,7 +270,6 @@ public:
             myEyesOpen.draw(0, 0, displayW, displayW);
         }
         // ofSetHexColor(0x000000);
-        //vag.drawString(std::to_string(type), -5,-5);
         ofPopMatrix();
     }
     
@@ -348,6 +350,7 @@ public:
     int y;
     int w;
     int h;
+	int screenW;
     string filename;
     string link;
     ofImage spriteImg;
@@ -588,6 +591,7 @@ public:
     int margin = 1;
     int selected = 0;
     int circleToChange = -1;
+	int device = 0;
     
     float retinaScale;
     int bankMargin = 0;
@@ -642,8 +646,8 @@ public:
                     m->id = menuSettings.getValue("id", 0);
                     //ofLog(OF_LOG_VERBOSE, "Id %d:",m->id);
                     //if (type == MAIN_MENU)  m->filename = ofxiOSGetDocumentsDirectory()+menuSettings.getValue("img", "foo.png");
-					if (type == MAIN_MENU)  m->filename = menuSettings.getValue("img", "foo.png");
-                    if (type == SAMPLE_MENU)  m->filename = menuSettings.getValue("img", "foo.png");
+					m->filename = menuSettings.getValue("img", "foo.png");
+					
                     //ofLog(OF_LOG_VERBOSE, m->filename);
                     m->link = menuSettings.getValue("link", "foo.xml");
                     //ofLog(OF_LOG_VERBOSE, m->link);

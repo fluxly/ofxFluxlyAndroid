@@ -2,8 +2,6 @@
 #include "../../../libs/openFrameworks/ofMain.h"
 #include "ofApp.h"
 
-
-
 int main(){
 	ofSetupOpenGL(1024,768, OF_WINDOW);			// <-------- setup the GL context
 
@@ -13,7 +11,6 @@ int main(){
 	ofRunApp( new ofApp() );
 	return 0;
 }
-
 
 #ifdef TARGET_ANDROID
 void ofAndroidApplicationInit()

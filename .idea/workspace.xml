@@ -1,296 +1,199 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="411a94bb-36e6-4555-aaad-56e5c1a03b5f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-20-22-14-54-838.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-20-22-17-13-303.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-20-22-24-10-554.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-20-22-24-15-667.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-20-22-24-28-112.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-20-22-35-50-298.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-20-22-37-54-152.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-20-22-38-22-605.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-20-22-42-41-039.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-20-22-51-11-236.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-20-23-01-28-369.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-20-23-02-56-095.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-20-23-14-01-653.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-20-23-17-01-051.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-20-23-26-08-274.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-20-23-49-23-030.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-21-21-28-05-533.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-21-21-29-43-521.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-21-21-32-00-099.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-21-21-34-59-107.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-21-21-38-31-877.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-21-21-41-30-611.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-21-21-51-07-621.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-25-21-19-17-297.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-25-21-21-00-767.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-25-21-24-11-221.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-26-16-08-05-435.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-26-16-11-50-657.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-27-22-33-13-030.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-27-22-40-29-156.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-27-22-42-56-096.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-27-22-45-01-162.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-28-11-34-57-852.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-28-11-35-30-655.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-28-11-48-16-985.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-28-11-58-30-792.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-28-11-59-21-828.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-28-12-02-06-999.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-28-12-04-01-207.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-28-12-04-53-220.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-28-12-13-39-272.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-28-12-19-06-861.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-28-12-38-42-217.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-28-12-51-43-378.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-28-12-52-47-769.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-28-12-57-02-145.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-28-13-00-52-416.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-28-13-25-28-257.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-28-13-27-42-991.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-28-13-40-05-981.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-28-13-41-35-092.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-28-13-49-27-727.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-28-13-54-06-613.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-28-13-56-21-748.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-28-14-11-48-453.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-28-14-17-01-812.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-28-14-30-51-316.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-28-14-38-52-897.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-28-14-43-34-493.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-28-14-52-07-412.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-28-15-04-29-075.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-28-15-07-20-563.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-28-15-09-02-553.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-05-28-15-12-43-105.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/generated/mockable-android-19.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageArm7Debug/zip-cache/+PRDgmqUwDPo9+WCP0RZU4DZGoQ=" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/apcbo0tvh29netqtx2beleu2h/freeverb~.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/15vsgozlcj6j40o0mfmbnovx5/ofApp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/dw9cdqjwpr3znzqnmxqup6nv5/main.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/arm7/debug/debug_1e905425e4cd4d96d4e17a960d340e5ba7ba3a63.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/outputs/apk/ofxFluxlyAndroid2-arm7-debug.apk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/YakShaveriOS.pd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pd-drom.pd" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/arrow.png" afterPath="$PROJECT_DIR$/bin/data/arrow.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/arrowLeft.png" afterPath="$PROJECT_DIR$/bin/data/arrowLeft.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/bank0.png" afterPath="$PROJECT_DIR$/bin/data/bank0.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/bank1.png" afterPath="$PROJECT_DIR$/bin/data/bank1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/consolePlay.png" afterPath="$PROJECT_DIR$/bin/data/consolePlay.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/consolePlayStop.png" afterPath="$PROJECT_DIR$/bin/data/consolePlayStop.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/consoleRec.png" afterPath="$PROJECT_DIR$/bin/data/consoleRec.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/consoleRecStop.png" afterPath="$PROJECT_DIR$/bin/data/consoleRecStop.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/dampOnOff.png" afterPath="$PROJECT_DIR$/bin/data/dampOnOff.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/dampOnOffGlow.png" afterPath="$PROJECT_DIR$/bin/data/dampOnOffGlow.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/recordDisabled.png" afterPath="$PROJECT_DIR$/bin/data/recordDisabled.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/saving.png" afterPath="$PROJECT_DIR$/bin/data/saving.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/arrow.png" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/arrow.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/arrowLeft.png" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/arrowLeft.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/bank0.png" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/bank0.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/bank1.png" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/bank1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/consolePlay.png" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/consolePlay.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/consolePlayStop.png" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/consolePlayStop.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/consoleRec.png" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/consoleRec.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/consoleRecStop.png" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/consoleRecStop.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/dampOnOff.png" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/dampOnOff.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/dampOnOffGlow.png" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/dampOnOffGlow.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/recordDisabled.png" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/recordDisabled.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/saving.png" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/saving.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/AppStoreIcon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/addSample.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/appIcon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-26-17-36-12-993.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-26-17-39-57-740.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-26-21-49-04-312.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-26-21-49-23-152.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-26-21-49-32-139.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-26-21-49-50-502.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-26-21-51-01-630.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-26-21-53-07-398.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-26-21-53-34-461.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-26-21-55-25-042.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-26-21-58-08-886.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-26-22-04-44-279.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-26-22-42-59-506.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-26-22-44-46-591.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-26-22-47-10-420.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-26-22-47-45-198.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-26-22-48-13-307.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-26-22-49-16-754.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-26-22-50-43-568.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-26-22-54-59-201.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-26-22-56-40-132.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-26-22-58-00-242.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-26-23-02-00-395.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-26-23-53-16-264.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-26-23-54-27-146.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-26-23-55-25-557.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-26-23-56-56-868.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-27-12-37-34-948.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-27-12-39-50-414.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-27-12-41-16-077.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-27-16-33-18-008.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-27-16-38-18-360.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-27-16-38-28-461.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-27-16-42-10-632.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-27-16-57-18-908.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-27-17-07-09-958.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-27-17-09-51-075.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-27-17-19-55-531.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-27-17-25-33-009.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-27-17-37-15-645.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-27-17-38-56-014.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-27-17-41-44-327.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-27-17-50-29-581.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-27-17-58-15-590.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-27-17-59-12-433.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-27-17-59-37-320.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-27-18-37-00-378.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-27-20-23-35-167.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-27-20-31-00-050.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-27-20-31-06-213.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-27-20-31-31-895.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-27-20-41-30-915.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-27-20-43-42-120.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-27-20-44-55-966.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-27-20-53-26-574.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-27-22-27-43-957.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-27-22-28-15-995.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-28-10-41-52-099.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-28-10-44-13-935.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-28-10-50-48-509.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-28-11-08-35-139.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-28-11-12-05-591.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-28-11-15-06-375.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-28-11-19-44-219.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-28-11-24-11-229.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-28-11-29-28-423.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-28-11-40-36-142.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-28-11-46-55-258.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-28-12-00-15-060.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-28-12-09-11-553.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-28-12-10-02-878.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-28-12-12-47-633.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/AppStoreIcon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/addSample.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/appIcon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/androidTest/arm7/debug/cc/openframeworks/ofxFluxlyAndroid/test/BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/incremental-safeguard/androidTest/arm7/debug/tag.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/compilationState.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/compilationState.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_compileArm7DebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_compileArm7DebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_compileArm7DebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_compileArm7DebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_ofAndroidLib_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_ofAndroidLib_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_ofAndroidLib_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_ofAndroidLib_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_ofAndroidLib_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_ofAndroidLib_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_ofAndroidLib_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_ofAndroidLib_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/Icon.png" afterPath="$PROJECT_DIR$/bin/data/Icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/foo2.wav" afterPath="$PROJECT_DIR$/bin/data/foo2.wav" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/Icon.png" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/Icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/foo2.wav" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/foo2.wav" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/binaries/debug/arm7/lib/armeabi-v7a/libOFAndroidApp.so" afterPath="$PROJECT_DIR$/build/intermediates/binaries/debug/arm7/lib/armeabi-v7a/libOFAndroidApp.so" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/binaries/debug/arm7/obj/armeabi-v7a/libOFAndroidApp.so" afterPath="$PROJECT_DIR$/build/intermediates/binaries/debug/arm7/obj/armeabi-v7a/libOFAndroidApp.so" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/12q7p6z2dvgzxvdy5wzatsann/z_print_util.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/12q7p6z2dvgzxvdy5wzatsann/z_print_util.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/1khiywgfta8acfnm1cth77c6r/g_hslider.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/1khiywgfta8acfnm1cth77c6r/g_hslider.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/1oul35qaaf61vpolmhakv49xf/g_traversal.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/1oul35qaaf61vpolmhakv49xf/g_traversal.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/1s50ach8cg7ku1n4gczsm4agm/d_fft_fftsg.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/1s50ach8cg7ku1n4gczsm4agm/d_fft_fftsg.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/1txolnq8vb99wmd8xoqd5xjem/d_osc.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/1txolnq8vb99wmd8xoqd5xjem/d_osc.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/1ye5kdko0o2l8qxe087ybyug5/m_class.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/1ye5kdko0o2l8qxe087ybyug5/m_class.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/237wd7ycxkyjo7yjj97hc3a8r/x_text.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/237wd7ycxkyjo7yjj97hc3a8r/x_text.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/25jfwaj6oe0x5snz0em3565iz/g_bang.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/25jfwaj6oe0x5snz0em3565iz/g_bang.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/2akizpvlfklzlrrlhzys1pbf8/stdout.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/2akizpvlfklzlrrlhzys1pbf8/stdout.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/2cva1e6vw0io2ujhlgj7iy2nr/d_array.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/2cva1e6vw0io2ujhlgj7iy2nr/d_array.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/2i6bcug48s9u9779f1mqubwwg/m_pd.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/2i6bcug48s9u9779f1mqubwwg/m_pd.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/2v34m50ngyc8bnpsjcsse2emd/d_global.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/2v34m50ngyc8bnpsjcsse2emd/d_global.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/2w3013ybie1b3viicgxpfdopy/g_io.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/2w3013ybie1b3viicgxpfdopy/g_io.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/32lod1ly03xvbvv0pcag410ya/pique.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/32lod1ly03xvbvv0pcag410ya/pique.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/3c0zp3v3wmy5z5akao0qb5gt4/g_vdial.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/3c0zp3v3wmy5z5akao0qb5gt4/g_vdial.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/3g4czdc8y3hvohsb9d4uvagy6/s_loader.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/3g4czdc8y3hvohsb9d4uvagy6/s_loader.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/3q2kj9y3nuykdoum42wfeuj18/x_time.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/3q2kj9y3nuykdoum42wfeuj18/x_time.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/3rr9gk5ximwb79qowwb2aw31f/g_numbox.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/3rr9gk5ximwb79qowwb2aw31f/g_numbox.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/426cz4r6wqgwnfwxnb0b0u2xa/m_obj.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/426cz4r6wqgwnfwxnb0b0u2xa/m_obj.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/43gi6sux6rniy9ye4hl0mklb8/x_acoustics.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/43gi6sux6rniy9ye4hl0mklb8/x_acoustics.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/4kam2u3ttqnk46dpm8hlyr4yi/m_atom.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/4kam2u3ttqnk46dpm8hlyr4yi/m_atom.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/4u9l2tblw8qmqo7ivpw12t5wn/d_misc.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/4u9l2tblw8qmqo7ivpw12t5wn/d_misc.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/4zt3bwxn8f64gu4igh1s49d2q/d_fft.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/4zt3bwxn8f64gu4igh1s49d2q/d_fft.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/55u1mc7hzbxrlq3s1eqo61hx4/g_scalar.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/55u1mc7hzbxrlq3s1eqo61hx4/g_scalar.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/59906qi4ptzqbwgqm8y4jlnua/x_array.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/59906qi4ptzqbwgqm8y4jlnua/x_array.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/5a9vy1hjkodm9b2ba4pwlo3qa/s_print.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/5a9vy1hjkodm9b2ba4pwlo3qa/s_print.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/5chfb7a1601e2i361gzxuimd0/s_audio.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/5chfb7a1601e2i361gzxuimd0/s_audio.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/5e69au03fxgmfe5avauofhucr/s_file.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/5e69au03fxgmfe5avauofhucr/s_file.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/5e77kr1agsideobchy61yb76w/x_vexp_fun.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/5e77kr1agsideobchy61yb76w/x_vexp_fun.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/5g4xeskwzoz3zjo68geti1m2o/z_hooks.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/5g4xeskwzoz3zjo68geti1m2o/z_hooks.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/65lm7xl5o9hz3ebzhumnjsn83/d_arithmetic.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/65lm7xl5o9hz3ebzhumnjsn83/d_arithmetic.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/6fflzeec4tian2kwvtg7w4ehs/g_mycanvas.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/6fflzeec4tian2kwvtg7w4ehs/g_mycanvas.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/6pnppyot3ca7wo851brn7u48w/g_text.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/6pnppyot3ca7wo851brn7u48w/g_text.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/6v97ndbybuhd7psxtkb8vegz5/d_delay.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/6v97ndbybuhd7psxtkb8vegz5/d_delay.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/70cdk3eq8n8vw8r9049wr13ud/g_graph.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/70cdk3eq8n8vw8r9049wr13ud/g_graph.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/72mnrors1fy7l26xdzcvmntm8/m_glob.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/72mnrors1fy7l26xdzcvmntm8/m_glob.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/7yk0skp14jmeahlf5x6dnon13/x_list.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/7yk0skp14jmeahlf5x6dnon13/x_list.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/87od343s8wnz1oja9tktpoyfz/g_clone.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/87od343s8wnz1oja9tktpoyfz/g_clone.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/88bymovptidktbc6fiqdcnl0m/d_math.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/88bymovptidktbc6fiqdcnl0m/d_math.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/88wsojne0yfavn49zpj3krc29/x_libpdreceive.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/88wsojne0yfavn49zpj3krc29/x_libpdreceive.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/8a72z407fg6eb82oznvb5qaji/m_memory.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/8a72z407fg6eb82oznvb5qaji/m_memory.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/8wiqw2aw3w0nrecwllys7hzzl/g_array.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/8wiqw2aw3w0nrecwllys7hzzl/g_array.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/8woedlocemhw4zjnqoqdjsnvt/x_vexp.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/8woedlocemhw4zjnqoqdjsnvt/x_vexp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/90t1y27jyxdfhofpedp04l50w/d_filter.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/90t1y27jyxdfhofpedp04l50w/d_filter.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/9cilbh559309jb2drdrp5i8up/choice.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/9cilbh559309jb2drdrp5i8up/choice.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/9ias1cs2fof13hgmx0f75rrsk/d_dac.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/9ias1cs2fof13hgmx0f75rrsk/d_dac.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/9msh3k3h8uouqs2zcpvijot3w/g_canvas.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/9msh3k3h8uouqs2zcpvijot3w/g_canvas.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/9w5v0lrqqfnxla066ga20sxak/g_rtext.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/9w5v0lrqqfnxla066ga20sxak/g_rtext.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/abg1l0d29978l8mdu0xqh1syv/x_scalar.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/abg1l0d29978l8mdu0xqh1syv/x_scalar.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/ae5r7bjct5bt31l2bw88b9y3m/g_vslider.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/ae5r7bjct5bt31l2bw88b9y3m/g_vslider.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageArm7Debug/zip-cache/tEQvNj_jUoTOJLnGzu1EJerCcwA=" afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageArm7Debug/zip-cache/tEQvNj_jUoTOJLnGzu1EJerCcwA=" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/ajtumox7y30f8i5jraqfugo6f/s_main.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/ajtumox7y30f8i5jraqfugo6f/s_main.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/aymf4geiw0r8ig7h1ag0upngo/g_all_guis.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/aymf4geiw0r8ig7h1ag0upngo/g_all_guis.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/aymtmghwem6s6hmnykgqcg9vd/g_readwrite.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/aymtmghwem6s6hmnykgqcg9vd/g_readwrite.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/b0b0t2r6geb3yuimzzwgmnz5t/z_queued.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/b0b0t2r6geb3yuimzzwgmnz5t/z_queued.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/b0m8ht6nsjun5l11cdem2jxnk/x_net.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/b0m8ht6nsjun5l11cdem2jxnk/x_net.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/bd1ogp4n4bvgpa07d5quoj4da/s_audio_dummy.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/bd1ogp4n4bvgpa07d5quoj4da/s_audio_dummy.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/bdpnj1svyh0qy7rnoqnwln0y0/d_ctl.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/bdpnj1svyh0qy7rnoqnwln0y0/d_ctl.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/bn2mu4qk56ot3kxrc83l2pn8r/x_vexp_if.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/bn2mu4qk56ot3kxrc83l2pn8r/x_vexp_if.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/boqc7y5jequmt6ucbn1zrpzy1/g_vumeter.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/boqc7y5jequmt6ucbn1zrpzy1/g_vumeter.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/bpc9yfsbv7srmwk2btbhg4ylb/s_path.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/bpc9yfsbv7srmwk2btbhg4ylb/s_path.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/c03jfd1trn83mie77tg99wfx7/s_inter.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/c03jfd1trn83mie77tg99wfx7/s_inter.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/c2htcowxvwkuwh9n6q3o7w636/g_guiconnect.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/c2htcowxvwkuwh9n6q3o7w636/g_guiconnect.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/c4utzodyj1g0gzf490rj2sjfd/m_binbuf.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/c4utzodyj1g0gzf490rj2sjfd/m_binbuf.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/cia6z878md8tmk72tpvfrpxak/g_toggle.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/cia6z878md8tmk72tpvfrpxak/g_toggle.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/ciib3q73osysf7xjv1d6layuj/x_gui.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/ciib3q73osysf7xjv1d6layuj/x_gui.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/cjx5hwltgx1668c4dbo5ah5jv/d_ugen.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/cjx5hwltgx1668c4dbo5ah5jv/d_ugen.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/cly7edm8pod7yium0bsatanp8/x_connective.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/cly7edm8pod7yium0bsatanp8/x_connective.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/cmvsotynp2v8u05728lezhc3g/s_libpdmidi.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/cmvsotynp2v8u05728lezhc3g/s_libpdmidi.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/cnn0tezo827c7tqs0mylnfhrx/d_soundfile.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/cnn0tezo827c7tqs0mylnfhrx/d_soundfile.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/cqx9m8e0r7mly83pi2vw6spo2/g_hdial.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/cqx9m8e0r7mly83pi2vw6spo2/g_hdial.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/ddd74hofo0jzawws9btmpmrxw/x_misc.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/ddd74hofo0jzawws9btmpmrxw/x_misc.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/dtkeio8i6jh9niqtg3yrvha1j/d_resample.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/dtkeio8i6jh9niqtg3yrvha1j/d_resample.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/ebr2a6k3qgw56trpomxc9bu2q/g_editor.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/ebr2a6k3qgw56trpomxc9bu2q/g_editor.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/epwzpf241lkd4c0r7clc5j1mt/s_utf8.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/epwzpf241lkd4c0r7clc5j1mt/s_utf8.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/est556pbtxaiudp2ubr0rjfad/x_midi.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/est556pbtxaiudp2ubr0rjfad/x_midi.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/euizv9ac10udapexym7jbbbyo/ringbuffer.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/euizv9ac10udapexym7jbbbyo/ringbuffer.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/euvj56ve5g3q414gyicodq9oy/x_interface.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/euvj56ve5g3q414gyicodq9oy/x_interface.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/f1cw8abwlnz3z1l3fmi0ybmjw/z_libpd.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/f1cw8abwlnz3z1l3fmi0ybmjw/z_libpd.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/f5d4wc4u49d73u5lfyojynz7z/x_arithmetic.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/f5d4wc4u49d73u5lfyojynz7z/x_arithmetic.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/fsunw80cnqajtf3oziefzert/m_sched.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/fsunw80cnqajtf3oziefzert/m_sched.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/ltdugcn3mrdk3nw8ove2kv15/g_template.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/ltdugcn3mrdk3nw8ove2kv15/g_template.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/ymzcrcmtfa67rtwl3tu5zaki/m_conf.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/ymzcrcmtfa67rtwl3tu5zaki/m_conf.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/106esocq6j2h8m3fzx0cigjyh/ofxAndroidAccelerometer.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/106esocq6j2h8m3fzx0cigjyh/ofxAndroidAccelerometer.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/145kt770jodv9fsc15mjzlyo8/b2PrismaticJoint.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/145kt770jodv9fsc15mjzlyo8/b2PrismaticJoint.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/19p41huemdpnwqfi4kb1yz6my/b2EdgeShape.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/19p41huemdpnwqfi4kb1yz6my/b2EdgeShape.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/1gf5ta9nm19klxy1nedp9o5sj/b2BroadPhase.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/1gf5ta9nm19klxy1nedp9o5sj/b2BroadPhase.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/1jh1jmyml8uniyclpsdcptk9f/ofApp.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/1jh1jmyml8uniyclpsdcptk9f/ofApp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/1ug8essiw36szpaa6d5xdgxr/ofAppAndroidWindow.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/1ug8essiw36szpaa6d5xdgxr/ofAppAndroidWindow.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/2499t98j1lx9uebm1nsqvkco1/ofxAndroidUtils.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/2499t98j1lx9uebm1nsqvkco1/ofxAndroidUtils.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/29arabjtzarl3t0comf1je67i/b2PolygonContact.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/29arabjtzarl3t0comf1je67i/b2PolygonContact.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/2cbxz8d1fc5gvekhs80t0r8uy/tinyxmlerror.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/2cbxz8d1fc5gvekhs80t0r8uy/tinyxmlerror.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/2dsgt3gkcdnvpked91t17nojk/PdTypes.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/2dsgt3gkcdnvpked91t17nojk/PdTypes.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/2h5y69izxmnz9g5vtr9in8q8j/b2Island.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/2h5y69izxmnz9g5vtr9in8q8j/b2Island.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/2nbr14akhamcar4laqxg2h3k0/b2CollideCircle.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/2nbr14akhamcar4laqxg2h3k0/b2CollideCircle.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/33sqolvwfv5wiztm6444qljy9/ofxAndroidSoundPlayer.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/33sqolvwfv5wiztm6444qljy9/ofxAndroidSoundPlayer.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/34pqgrkswg0mhiy9x17ax0v53/ofxBox2dPolygon.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/34pqgrkswg0mhiy9x17ax0v53/ofxBox2dPolygon.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/3hbpnu0vqgan0dx1kird5hjsf/b2MotorJoint.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/3hbpnu0vqgan0dx1kird5hjsf/b2MotorJoint.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/3ij5ph5bx4zmikdujxcukk0h6/ofxPd.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/3ij5ph5bx4zmikdujxcukk0h6/ofxPd.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/3jliilvys634oumutxs0d5gpe/b2CollidePolygon.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/3jliilvys634oumutxs0d5gpe/b2CollidePolygon.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/3n0attssw35hb21xoqv18ux93/b2Settings.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/3n0attssw35hb21xoqv18ux93/b2Settings.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/3nren08pdzaiea1dmp22owb9g/ofxAndroidLogChannel.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/3nren08pdzaiea1dmp22owb9g/ofxAndroidLogChannel.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/3u6bc1x71rfmptdrpy9pd3276/b2BlockAllocator.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/3u6bc1x71rfmptdrpy9pd3276/b2BlockAllocator.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/3v54s1zskbsccuu837eqauq05/b2PolygonAndCircleContact.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/3v54s1zskbsccuu837eqauq05/b2PolygonAndCircleContact.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/4ghfjav5v9pabs98bycl52wq9/b2EdgeAndCircleContact.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/4ghfjav5v9pabs98bycl52wq9/b2EdgeAndCircleContact.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/4hocj21tl4y02lgfistnvnbnm/b2RevoluteJoint.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/4hocj21tl4y02lgfistnvnbnm/b2RevoluteJoint.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/4rdz7xjp50u4ev7iovq3ft7l4/tinyxmlparser.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/4rdz7xjp50u4ev7iovq3ft7l4/tinyxmlparser.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/4xl78qs3pef23n3ovp546upzn/b2Contact.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/4xl78qs3pef23n3ovp546upzn/b2Contact.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/57d2z49iiyi5i7ps93iqvg67/b2EdgeAndPolygonContact.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/57d2z49iiyi5i7ps93iqvg67/b2EdgeAndPolygonContact.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/5j5a731tis43231ryag8kwlg/ofxXmlSettings.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/5j5a731tis43231ryag8kwlg/ofxXmlSettings.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/5nsj5h771icveaq1guwsuqakz/ofxBox2dBaseShape.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/5nsj5h771icveaq1guwsuqakz/ofxBox2dBaseShape.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/5q2z1oqka1zdv4knssf83ye41/b2Collision.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/5q2z1oqka1zdv4knssf83ye41/b2Collision.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/5q7fd754kkn5ukfhefhy69hgf/del_impl.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/5q7fd754kkn5ukfhefhy69hgf/del_impl.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/5zyv6igoi9aj1nvl3q96albse/b2ContactManager.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/5zyv6igoi9aj1nvl3q96albse/b2ContactManager.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/6be8btdwm2xee9opsexrvchm9/b2ChainAndCircleContact.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/6be8btdwm2xee9opsexrvchm9/b2ChainAndCircleContact.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/6m8f0hpyj1cwnaqsz36lzc59e/ofxBox2d.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/6m8f0hpyj1cwnaqsz36lzc59e/ofxBox2d.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/6nwb7p6ltiz8q7bmzk0ja54q7/b2CircleContact.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/6nwb7p6ltiz8q7bmzk0ja54q7/b2CircleContact.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/6uyr0rifyxlyk40t24tymnkck/b2Joint.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/6uyr0rifyxlyk40t24tymnkck/b2Joint.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/6wro4b9nqanlus499n7e9dr3m/ofxBox2dEdge.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/6wro4b9nqanlus499n7e9dr3m/ofxBox2dEdge.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/75go2rgdfsn369dvxfk27bite/ofxAndroidVibrator.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/75go2rgdfsn369dvxfk27bite/ofxAndroidVibrator.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/7e4s5h6n67njjahtubjvv5h66/ofxBox2dJoint.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/7e4s5h6n67njjahtubjvv5h66/ofxBox2dJoint.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/7fl6wo5y52ypf655wba1u1mkd/b2DistanceJoint.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/7fl6wo5y52ypf655wba1u1mkd/b2DistanceJoint.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/894s1dkubygd9u2hat5wyyrpl/b2Math.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/894s1dkubygd9u2hat5wyyrpl/b2Math.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/8stqxkhpmoh4kinqvisuw6nkf/b2StackAllocator.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/8stqxkhpmoh4kinqvisuw6nkf/b2StackAllocator.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/8w02ujuu9or6n1zuwj3yd25sn/b2CollideEdge.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/8w02ujuu9or6n1zuwj3yd25sn/b2CollideEdge.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/90bjb4qrlz39aubcln7petffh/b2TimeOfImpact.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/90bjb4qrlz39aubcln7petffh/b2TimeOfImpact.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/90j28a9ab355ctm8flezoo21h/b2PulleyJoint.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/90j28a9ab355ctm8flezoo21h/b2PulleyJoint.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/9a4a0tao25aumiy3sobef2jza/b2Draw.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/9a4a0tao25aumiy3sobef2jza/b2Draw.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/9japm5w0i7nd31vwlzydqncnx/b2RopeJoint.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/9japm5w0i7nd31vwlzydqncnx/b2RopeJoint.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/9ks1mmn94357psktjrv4j0q35/b2Rope.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/9ks1mmn94357psktjrv4j0q35/b2Rope.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/9m2wzncu2hks4a29ephh8rec1/b2GearJoint.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/9m2wzncu2hks4a29ephh8rec1/b2GearJoint.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/9sff9vdo877i8fniag21ogiwf/b2ChainShape.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/9sff9vdo877i8fniag21ogiwf/b2ChainShape.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/9vndysskx829nmtbkbuz7blcb/ofxBox2dCircle.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/9vndysskx829nmtbkbuz7blcb/ofxBox2dCircle.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/a0dnmrbrexue1hg9gwqon80xb/b2WheelJoint.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/a0dnmrbrexue1hg9gwqon80xb/b2WheelJoint.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/bdrsuvdznimeo6esj8odo3oyy/ofxAndroidVideoGrabber.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/bdrsuvdznimeo6esj8odo3oyy/ofxAndroidVideoGrabber.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/biq2wn7fngq6vijap4kjnookc/b2Timer.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/biq2wn7fngq6vijap4kjnookc/b2Timer.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/bjbiytvzas9pt1krnrxbbqmen/b2ChainAndPolygonContact.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/bjbiytvzas9pt1krnrxbbqmen/b2ChainAndPolygonContact.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/blpzt78ewk2zm23z9vf9hql19/b2Fixture.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/blpzt78ewk2zm23z9vf9hql19/b2Fixture.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/brv1t7mypydbu7gbrpm27rha7/b2MouseJoint.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/brv1t7mypydbu7gbrpm27rha7/b2MouseJoint.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/ceqbtsh9b273vxw5k8c7kiaxh/b2CircleShape.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/ceqbtsh9b273vxw5k8c7kiaxh/b2CircleShape.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/cmgzp249pz6r98i6zi4ilgilz/b2Distance.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/cmgzp249pz6r98i6zi4ilgilz/b2Distance.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/dflo0urpy3yl42x7ojt2z9c13/ofxAccelerometer.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/dflo0urpy3yl42x7ojt2z9c13/ofxAccelerometer.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/djr8xjaghg86i185q7r611o8i/b2FrictionJoint.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/djr8xjaghg86i185q7r611o8i/b2FrictionJoint.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/e1zvon33c7b5uk2d8w2jhfzas/b2ContactSolver.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/e1zvon33c7b5uk2d8w2jhfzas/b2ContactSolver.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/e6j8u4riwc94kw2elyg6t5437/tinyxml.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/e6j8u4riwc94kw2elyg6t5437/tinyxml.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/8jx3yi89j9ama0bsomo3id94t/main.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/8jx3yi89j9ama0bsomo3id94t/main.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/eb5y6kvucr2y8a59qyols8fob/ofxAndroidSoundStream.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/eb5y6kvucr2y8a59qyols8fob/ofxAndroidSoundStream.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/egqcm77v5whci52dl6ycxk051/b2WeldJoint.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/egqcm77v5whci52dl6ycxk051/b2WeldJoint.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/esrwjwvemtiw12npml8223ihw/ofxBox2dConvexPoly.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/esrwjwvemtiw12npml8223ihw/ofxBox2dConvexPoly.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/euobgid3hhrtgxxt7rmk470is/PdBase.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/euobgid3hhrtgxxt7rmk470is/PdBase.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/exl12p3bucnobnjndfhlx296t/b2Body.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/exl12p3bucnobnjndfhlx296t/b2Body.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/eyrq63acudifrp76rvwht2dns/b2World.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/eyrq63acudifrp76rvwht2dns/b2World.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/eyv65woe0i8bqr55oxbtx75hs/ofxAndroidVideoPlayer.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/eyv65woe0i8bqr55oxbtx75hs/ofxAndroidVideoPlayer.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/ezyjdx8b39a5jrrktj7e45w8e/b2PolygonShape.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/ezyjdx8b39a5jrrktj7e45w8e/b2PolygonShape.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/f1vfuq6nyfjwi72qls49xsfyc/ofxBox2dRect.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/f1vfuq6nyfjwi72qls49xsfyc/ofxBox2dRect.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/fjtat3656pl98pqe7dro02r0/b2DynamicTree.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/fjtat3656pl98pqe7dro02r0/b2DynamicTree.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/ha1mygouhiq86zbtixcruiyq/b2WorldCallbacks.o" afterPath="$PROJECT_DIR$/build/intermediates/objectFiles/OFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/ha1mygouhiq86zbtixcruiyq/b2WorldCallbacks.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/arm7/debug/classes_53338caffea7cfc6e37799950f89ade024b7d6c6.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/arm7/debug/classes_53338caffea7cfc6e37799950f89ade024b7d6c6.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/arm7/debug/debug_013e26818359c6e97c5dcf95015628f8efcf7cf4.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/arm7/debug/debug_013e26818359c6e97c5dcf95015628f8efcf7cf4.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-arm7-debug.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-arm7-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/mergeJniLibs/arm7/debug/folders/2000/1f/main/lib/armeabi-v7a/libOFAndroidApp.so" afterPath="$PROJECT_DIR$/build/intermediates/transforms/mergeJniLibs/arm7/debug/folders/2000/1f/main/lib/armeabi-v7a/libOFAndroidApp.so" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/stripDebugSymbol/arm7/debug/folders/2000/1f/main/lib/armeabi-v7a/libOFAndroidApp.so" afterPath="$PROJECT_DIR$/build/intermediates/transforms/stripDebugSymbol/arm7/debug/folders/2000/1f/main/lib/armeabi-v7a/libOFAndroidApp.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/apk/ofxFluxlyAndroidGithub-arm7-debug.apk" afterPath="$PROJECT_DIR$/build/outputs/apk/ofxFluxlyAndroidGithub-arm7-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/YakShaveriOS3.pd" afterPath="$PROJECT_DIR$/bin/data/YakShaveriOS3.pd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/game0-ipad.xml" afterPath="$PROJECT_DIR$/bin/data/game0-ipad.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/game0.xml" afterPath="$PROJECT_DIR$/bin/data/game0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/game1-ipad.xml" afterPath="$PROJECT_DIR$/bin/data/game1-ipad.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/game1.xml" afterPath="$PROJECT_DIR$/bin/data/game1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/game10-ipad.xml" afterPath="$PROJECT_DIR$/bin/data/game10-ipad.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/game10.xml" afterPath="$PROJECT_DIR$/bin/data/game10.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/game11-ipad.xml" afterPath="$PROJECT_DIR$/bin/data/game11-ipad.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/game11.xml" afterPath="$PROJECT_DIR$/bin/data/game11.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/game12-ipad.xml" afterPath="$PROJECT_DIR$/bin/data/game12-ipad.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/game12.xml" afterPath="$PROJECT_DIR$/bin/data/game12.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/game13-ipad.xml" afterPath="$PROJECT_DIR$/bin/data/game13-ipad.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/game13.xml" afterPath="$PROJECT_DIR$/bin/data/game13.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/game14-ipad.xml" afterPath="$PROJECT_DIR$/bin/data/game14-ipad.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/game14.xml" afterPath="$PROJECT_DIR$/bin/data/game14.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/game15-ipad.xml" afterPath="$PROJECT_DIR$/bin/data/game15-ipad.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/game15.xml" afterPath="$PROJECT_DIR$/bin/data/game15.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/game2-ipad.xml" afterPath="$PROJECT_DIR$/bin/data/game2-ipad.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/game2.xml" afterPath="$PROJECT_DIR$/bin/data/game2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/game3-ipad.xml" afterPath="$PROJECT_DIR$/bin/data/game3-ipad.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/game3.xml" afterPath="$PROJECT_DIR$/bin/data/game3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/game4-ipad.xml" afterPath="$PROJECT_DIR$/bin/data/game4-ipad.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/game4.xml" afterPath="$PROJECT_DIR$/bin/data/game4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/game5-ipad.xml" afterPath="$PROJECT_DIR$/bin/data/game5-ipad.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/game5.xml" afterPath="$PROJECT_DIR$/bin/data/game5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/game6-ipad.xml" afterPath="$PROJECT_DIR$/bin/data/game6-ipad.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/game6.xml" afterPath="$PROJECT_DIR$/bin/data/game6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/game7-ipad.xml" afterPath="$PROJECT_DIR$/bin/data/game7-ipad.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/game7.xml" afterPath="$PROJECT_DIR$/bin/data/game7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/game8-ipad.xml" afterPath="$PROJECT_DIR$/bin/data/game8-ipad.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/game8.xml" afterPath="$PROJECT_DIR$/bin/data/game8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/game9-ipad.xml" afterPath="$PROJECT_DIR$/bin/data/game9-ipad.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/game9.xml" afterPath="$PROJECT_DIR$/bin/data/game9.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/YakShaveriOS3.pd" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/YakShaveriOS3.pd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/arm7/debug/multi/values-v11.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/arm7/debug/multi/values-v11.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/arm7/debug/multi/values-v14.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/arm7/debug/multi/values-v14.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/arm7/debug/multi/values.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/arm7/debug/multi/values.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/arm7/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/arm7/debug/single/drawable-hdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/arm7/debug/single/drawable-ldpi-v4.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/arm7/debug/single/drawable-ldpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/arm7/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/arm7/debug/single/drawable-mdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/arm7/debug/single/drawable.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/arm7/debug/single/drawable.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/arm7/debug/single/layout.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/arm7/debug/single/layout.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/arm7/debug/single/menu.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/arm7/debug/single/menu.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game0-ipad.xml" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game0-ipad.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game0.xml" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game1-ipad.xml" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game1-ipad.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game1.xml" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game10-ipad.xml" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game10-ipad.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game10.xml" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game10.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game11-ipad.xml" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game11-ipad.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game11.xml" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game11.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game12-ipad.xml" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game12-ipad.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game12.xml" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game12.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game13-ipad.xml" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game13-ipad.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game13.xml" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game13.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game14-ipad.xml" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game14-ipad.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game14.xml" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game14.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game15-ipad.xml" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game15-ipad.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game15.xml" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game15.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game2-ipad.xml" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game2-ipad.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game2.xml" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game3-ipad.xml" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game3-ipad.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game3.xml" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game4-ipad.xml" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game4-ipad.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game4.xml" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game5-ipad.xml" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game5-ipad.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game5.xml" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game6-ipad.xml" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game6-ipad.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game6.xml" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game7-ipad.xml" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game7-ipad.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game7.xml" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game8-ipad.xml" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game8-ipad.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game8.xml" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game9-ipad.xml" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game9-ipad.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game9.xml" afterPath="$PROJECT_DIR$/build/intermediates/assets/arm7/debug/game9.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeArm7DebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeArm7DebugAndroidTestResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeArm7DebugAndroidTestResources/merger.xml" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeArm7DebugAndroidTestResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeArm7DebugAssets/merger.xml" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeArm7DebugAssets/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeArm7DebugJniLibFolders/merger.xml" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeArm7DebugJniLibFolders/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeArm7DebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeArm7DebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeArm7DebugResources/merger.xml" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeArm7DebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeArm7DebugShaders/merger.xml" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeArm7DebugShaders/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageArm7Debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageArm7Debug/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageArm7Debug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageArm7Debug/file-input-save-data.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/manifests/full/arm7/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/build/intermediates/manifests/full/arm7/debug/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-arm7-debug-report.txt" afterPath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-arm7-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/compileOFAndroidAppArmeabi-v7aDebugArm7SharedLibraryOFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/options.txt" afterPath="$PROJECT_DIR$/build/tmp/compileOFAndroidAppArmeabi-v7aDebugArm7SharedLibraryOFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/options.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/compileOFAndroidAppArmeabi-v7aDebugArm7SharedLibraryOFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/output.txt" afterPath="$PROJECT_DIR$/build/tmp/compileOFAndroidAppArmeabi-v7aDebugArm7SharedLibraryOFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainC/output.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/compileOFAndroidAppArmeabi-v7aDebugArm7SharedLibraryOFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/options.txt" afterPath="$PROJECT_DIR$/build/tmp/compileOFAndroidAppArmeabi-v7aDebugArm7SharedLibraryOFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/options.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/compileOFAndroidAppArmeabi-v7aDebugArm7SharedLibraryOFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/output.txt" afterPath="$PROJECT_DIR$/build/tmp/compileOFAndroidAppArmeabi-v7aDebugArm7SharedLibraryOFAndroidAppArmeabi-v7aDebugArm7SharedLibraryMainCpp/output.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/linkOFAndroidAppArmeabi-v7aDebugArm7SharedLibrary/options.txt" afterPath="$PROJECT_DIR$/build/tmp/linkOFAndroidAppArmeabi-v7aDebugArm7SharedLibrary/options.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/linkOFAndroidAppArmeabi-v7aDebugArm7SharedLibrary/output.txt" afterPath="$PROJECT_DIR$/build/tmp/linkOFAndroidAppArmeabi-v7aDebugArm7SharedLibrary/output.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FluxlyClasses.h" afterPath="$PROJECT_DIR$/src/FluxlyClasses.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.cpp" afterPath="$PROJECT_DIR$/src/main.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ofApp.cpp" afterPath="$PROJECT_DIR$/src/ofApp.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ofApp.h" afterPath="$PROJECT_DIR$/src/ofApp.h" />
     </list>
@@ -316,32 +219,62 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ofApp.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ofApp.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="123" column="41" lean-forward="false" selection-start-line="123" selection-start-column="41" selection-end-line="123" selection-end-column="41" />
+              <folding>
+                <element signature="e#8818#8875#0" expanded="true" />
+                <element signature="e#9039#9091#0" expanded="true" />
+                <element signature="e#25690#26424#0" expanded="true" />
+                <element signature="e#37553#37607#0" expanded="true" />
+                <element signature="e#42235#43014#0" expanded="true" />
+                <element signature="e#50127#52012#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ofApp.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ofApp.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="189" column="15" lean-forward="false" selection-start-line="189" selection-start-column="8" selection-end-line="189" selection-end-column="15" />
-              <folding />
+            <state relative-caret-position="3180">
+              <caret line="212" column="20" lean-forward="false" selection-start-line="212" selection-start-column="20" selection-end-line="212" selection-end-column="20" />
+              <folding>
+                <element signature="e#14#37#0" expanded="true" />
+                <marker date="1531087914304" expanded="true" signature="4160:6698" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ofApp.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ofApp.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="51" column="28" lean-forward="false" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FluxlyClasses.h" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FluxlyClasses.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FluxlyClasses.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="575" column="20" lean-forward="false" selection-start-line="575" selection-start-column="20" selection-end-line="575" selection-end-column="20" />
-              <folding />
+            <state relative-caret-position="4080">
+              <caret line="272" column="8" lean-forward="false" selection-start-line="272" selection-start-column="8" selection-end-line="272" selection-end-column="8" />
+              <folding>
+                <element signature="e#24325#24483#0" expanded="true" />
+                <marker date="1531068980664" expanded="true" signature="17420:19992" ph="{...}" />
+                <marker date="1531068980664" expanded="true" signature="17420:24555" ph="{...}" />
+                <marker date="1531068980664" expanded="true" signature="20032:21402" ph="{...}" />
+                <marker date="1531068980664" expanded="true" signature="21439:21546" ph="{...}" />
+                <marker date="1531068980664" expanded="true" signature="21579:22898" ph="{...}" />
+                <marker date="1531068980664" expanded="true" signature="22944:23375" ph="{...}" />
+                <marker date="1531068980664" expanded="true" signature="23407:23650" ph="{...}" />
+                <marker date="1531068980664" expanded="true" signature="23667:24553" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -351,16 +284,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="570">
               <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="proguard-project.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../addons/ofxAndroid/ofAndroidLib/proguard-project.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -379,7 +302,7 @@
       <file leaf-file-name="ndk-verify.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../../libs/openFrameworksCompiled/project/android/ndk-verify.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-135">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -389,7 +312,7 @@
       <file leaf-file-name="common-functions.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../../libs/openFrameworksCompiled/project/android/common-functions.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8">
+            <state relative-caret-position="5355">
               <caret line="357" column="1" lean-forward="false" selection-start-line="357" selection-start-column="1" selection-end-line="357" selection-end-column="1" />
               <folding />
             </state>
@@ -399,7 +322,7 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../../libs/openFrameworksCompiled/project/android/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-481">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -423,10 +346,21 @@
       <find>new</find>
       <find>saving</find>
       <find>deviceOrient</find>
-      <find>animation</find>
       <find>console</find>
       <find>consoleH</find>
       <find>control</find>
+      <find>bank</find>
+      <find>touchMargin</find>
+      <find>finishRender</find>
+      <find>retinaScale</find>
+      <find>animation</find>
+      <find>SAVE</find>
+      <find>navMenu</find>
+      <find>48000</find>
+      <find>fps</find>
+      <find>soundW</find>
+      <find>ticks</find>
+      <find>d</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -6110,17 +6044,36 @@
         <option value="$PROJECT_DIR$/../../../libs/openFrameworksCompiled/project/android/common-functions.gradle" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/../../../addons/ofxAndroid/ofAndroidLib/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main.cpp" />
+        <option value="$PROJECT_DIR$/src/FluxlyClasses.h" />
         <option value="$PROJECT_DIR$/src/ofApp.h" />
         <option value="$PROJECT_DIR$/src/ofApp.cpp" />
-        <option value="$PROJECT_DIR$/src/FluxlyClasses.h" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="16" />
-    <option name="y" value="31" />
+    <option name="y" value="34" />
     <option name="width" value="1342" />
-    <option name="height" value="712" />
+    <option name="height" value="705" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="AndroidView" proportions="" version="1">
@@ -6137,7 +6090,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -6150,59 +6103,18 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidBuildScriptsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ofxFluxlyAndroidGithub" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ofxFluxlyAndroidGithub" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ofxFluxlyAndroidGithub" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ofxFluxlyAndroidGithub" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cpp" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidJniFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.ndk.NdkSourceFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ofxFluxlyAndroidGithub" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ofxFluxlyAndroidGithub" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cpp" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidJniFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.do.not.ask.upgrade.gradle.plugin" value="0.9.3" />
     <property name="device.picker.selection" value="0407a735e0785980" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -6223,12 +6135,12 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -6286,7 +6198,8 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1530202402187" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1531146937398" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -6332,14 +6245,28 @@
       <Profilers>
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
       </Profilers>
+      <method>
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1531146937398" />
+      </method>
+    </configuration>
+    <configuration default="true" type="AppEngineRunConfiguration" factoryName="App Engine DevAppServer">
+      <module name="" />
+      <setting name="serverAddress" value="" />
+      <setting name="sdkPath" value="" />
+      <setting name="serverPort" value="" />
+      <setting name="vmArgs" value="" />
+      <setting name="warPath" value="" />
+      <setting name="sync" value="false" />
+      <setting name="disableUpdateCheck" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -6349,34 +6276,38 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
+      <method />
+    </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" />
+        <option name="externalProjectPath" value="" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list />
         </option>
-        <option name="vmOptions" />
+        <option name="vmOptions" value="" />
       </ExternalSystemSettings>
       <method />
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <envs />
       <method />
     </configuration>
     <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SCRATCH_FILE_ID" value="0" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -6454,8 +6385,8 @@
       <option name="PM_INSTALL_OPTIONS" value="" />
       <option name="ACTIVITY_EXTRA_FLAGS" value="" />
       <option name="MODE" value="default_activity" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="CLEAR_LOGCAT" value="true" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
@@ -6491,7 +6422,10 @@
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
-      <method />
+      <method>
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1531146937412" />
+      </method>
     </configuration>
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Android App.ofxFluxlyAndroidGithub" />
@@ -6529,37 +6463,36 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="16" y="31" width="1342" height="712" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="34" width="1342" height="705" extended-state="0" />
     <layout>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33592534" sideWeight="0.4323077" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.38442212" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33592534" sideWeight="0.55846155" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.4969231" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33490565" sideWeight="0.63384616" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3537736" sideWeight="0.72923076" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37421384" sideWeight="0.8069231" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33592534" sideWeight="0.5676923" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37421384" sideWeight="0.19307692" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.6155779" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33490565" sideWeight="0.35923076" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -6572,115 +6505,67 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ofApp.h">
+    <entry file="file://$PROJECT_DIR$/../../../libs/openFrameworksCompiled/project/android/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#37#0" expanded="false" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="21" lean-forward="false" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ofApp.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../addons/ofxAndroid/ofAndroidLib/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ofApp.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="1335">
+          <caret line="89" column="4" lean-forward="false" selection-start-line="89" selection-start-column="4" selection-end-line="89" selection-end-column="4" />
           <folding>
-            <element signature="e#14#37#0" expanded="false" />
+            <element signature="e#8818#8875#0" expanded="true" />
+            <element signature="e#9039#9091#0" expanded="true" />
+            <element signature="e#25690#26424#0" expanded="true" />
+            <element signature="e#37553#37607#0" expanded="true" />
+            <element signature="e#42235#43014#0" expanded="true" />
+            <element signature="e#50127#52012#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../addons/ofxAndroid/ofAndroidLib/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ofApp.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#37#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../addons/ofxAndroid/ofAndroidLib/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ofApp.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#37#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ofApp.cpp" />
     <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
+    <entry file="file://$PROJECT_DIR$/src/FluxlyClasses.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1530">
+          <caret line="102" column="10" lean-forward="false" selection-start-line="102" selection-start-column="10" selection-end-line="102" selection-end-column="10" />
+          <folding>
+            <element signature="e#24325#24483#0" expanded="true" />
+            <marker date="1531068980664" expanded="true" signature="17420:19992" ph="{...}" />
+            <marker date="1531068980664" expanded="true" signature="17420:24555" ph="{...}" />
+            <marker date="1531068980664" expanded="true" signature="20032:21402" ph="{...}" />
+            <marker date="1531068980664" expanded="true" signature="21439:21546" ph="{...}" />
+            <marker date="1531068980664" expanded="true" signature="21579:22898" ph="{...}" />
+            <marker date="1531068980664" expanded="true" signature="22944:23375" ph="{...}" />
+            <marker date="1531068980664" expanded="true" signature="23407:23650" ph="{...}" />
+            <marker date="1531068980664" expanded="true" signature="23667:24553" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
+    <entry file="file://$PROJECT_DIR$/../../../addons/ofxAndroid/ofAndroidLib/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../addons/ofxAndroid/ofAndroidLib/proguard.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-291">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../addons/ofxAndroid/ofAndroidLib/proguard-project.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="570">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -6695,7 +6580,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../libs/openFrameworksCompiled/project/android/ndk-verify.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -6703,7 +6588,322 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../libs/openFrameworksCompiled/project/android/common-functions.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8">
+        <state relative-caret-position="5355">
+          <caret line="357" column="1" lean-forward="false" selection-start-line="357" selection-start-column="1" selection-end-line="357" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../libs/openFrameworksCompiled/project/android/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="21" lean-forward="false" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ofApp.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="89" lean-forward="false" selection-start-line="20" selection-start-column="89" selection-end-line="20" selection-end-column="89" />
+          <folding>
+            <element signature="e#8818#8875#0" expanded="true" />
+            <element signature="e#9039#9091#0" expanded="true" />
+            <element signature="e#25690#26424#0" expanded="true" />
+            <element signature="e#37553#37607#0" expanded="true" />
+            <element signature="e#42235#43014#0" expanded="true" />
+            <element signature="e#50127#52012#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FluxlyClasses.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="102" column="10" lean-forward="false" selection-start-line="102" selection-start-column="10" selection-end-line="102" selection-end-column="10" />
+          <folding>
+            <element signature="e#24325#24483#0" expanded="true" />
+            <marker date="1531068980664" expanded="true" signature="17420:19992" ph="{...}" />
+            <marker date="1531068980664" expanded="true" signature="17420:24555" ph="{...}" />
+            <marker date="1531068980664" expanded="true" signature="20032:21402" ph="{...}" />
+            <marker date="1531068980664" expanded="true" signature="21439:21546" ph="{...}" />
+            <marker date="1531068980664" expanded="true" signature="21579:22898" ph="{...}" />
+            <marker date="1531068980664" expanded="true" signature="22944:23375" ph="{...}" />
+            <marker date="1531068980664" expanded="true" signature="23407:23650" ph="{...}" />
+            <marker date="1531068980664" expanded="true" signature="23667:24553" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../addons/ofxAndroid/ofAndroidLib/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../libs/openFrameworksCompiled/project/android/ndk-verify.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../libs/openFrameworksCompiled/project/android/common-functions.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5355">
+          <caret line="357" column="1" lean-forward="false" selection-start-line="357" selection-start-column="1" selection-end-line="357" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../libs/openFrameworksCompiled/project/android/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="21" lean-forward="false" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FluxlyClasses.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="102" column="10" lean-forward="false" selection-start-line="102" selection-start-column="10" selection-end-line="102" selection-end-column="10" />
+          <folding>
+            <element signature="e#24325#24483#0" expanded="true" />
+            <marker date="1531068980664" expanded="true" signature="17420:19992" ph="{...}" />
+            <marker date="1531068980664" expanded="true" signature="17420:24555" ph="{...}" />
+            <marker date="1531068980664" expanded="true" signature="20032:21402" ph="{...}" />
+            <marker date="1531068980664" expanded="true" signature="21439:21546" ph="{...}" />
+            <marker date="1531068980664" expanded="true" signature="21579:22898" ph="{...}" />
+            <marker date="1531068980664" expanded="true" signature="22944:23375" ph="{...}" />
+            <marker date="1531068980664" expanded="true" signature="23407:23650" ph="{...}" />
+            <marker date="1531068980664" expanded="true" signature="23667:24553" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../addons/ofxAndroid/ofAndroidLib/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../libs/openFrameworksCompiled/project/android/ndk-verify.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../libs/openFrameworksCompiled/project/android/common-functions.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5355">
+          <caret line="357" column="1" lean-forward="false" selection-start-line="357" selection-start-column="1" selection-end-line="357" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../libs/openFrameworksCompiled/project/android/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="21" lean-forward="false" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ofApp.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#37#0" expanded="true" />
+            <marker date="1531087914304" expanded="true" signature="4160:6698" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ofApp.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="e#8818#8875#0" expanded="true" />
+            <element signature="e#9039#9091#0" expanded="true" />
+            <element signature="e#25690#26424#0" expanded="true" />
+            <element signature="e#37553#37607#0" expanded="true" />
+            <element signature="e#42235#43014#0" expanded="true" />
+            <element signature="e#50127#52012#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../addons/ofxAndroid/ofAndroidLib/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ofApp.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#37#0" expanded="true" />
+            <marker date="1531087914304" expanded="true" signature="4160:6698" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../addons/ofxAndroid/ofAndroidLib/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ofApp.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#37#0" expanded="true" />
+            <marker date="1531087914304" expanded="true" signature="4160:6698" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../addons/ofxAndroid/ofAndroidLib/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ofApp.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#37#0" expanded="true" />
+            <marker date="1531087914304" expanded="true" signature="4160:6698" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ofApp.cpp" />
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../addons/ofxAndroid/ofAndroidLib/proguard.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-291">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../addons/ofxAndroid/ofAndroidLib/proguard-project.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../libs/openFrameworksCompiled/project/android/ndk-verify.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../libs/openFrameworksCompiled/project/android/common-functions.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5355">
           <caret line="357" column="1" lean-forward="false" selection-start-line="357" selection-start-column="1" selection-end-line="357" selection-end-column="1" />
           <folding />
         </state>
@@ -6719,7 +6919,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../libs/openFrameworksCompiled/project/android/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-481">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -6733,27 +6933,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ofApp.h">
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="189" column="15" lean-forward="false" selection-start-line="189" selection-start-column="8" selection-end-line="189" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ofApp.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="51" column="28" lean-forward="false" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+        <state relative-caret-position="105">
+          <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FluxlyClasses.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="575" column="20" lean-forward="false" selection-start-line="575" selection-start-column="20" selection-end-line="575" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="4080">
+          <caret line="272" column="8" lean-forward="false" selection-start-line="272" selection-start-column="8" selection-end-line="272" selection-end-column="8" />
+          <folding>
+            <element signature="e#24325#24483#0" expanded="true" />
+            <marker date="1531068980664" expanded="true" signature="17420:19992" ph="{...}" />
+            <marker date="1531068980664" expanded="true" signature="17420:24555" ph="{...}" />
+            <marker date="1531068980664" expanded="true" signature="20032:21402" ph="{...}" />
+            <marker date="1531068980664" expanded="true" signature="21439:21546" ph="{...}" />
+            <marker date="1531068980664" expanded="true" signature="21579:22898" ph="{...}" />
+            <marker date="1531068980664" expanded="true" signature="22944:23375" ph="{...}" />
+            <marker date="1531068980664" expanded="true" signature="23407:23650" ph="{...}" />
+            <marker date="1531068980664" expanded="true" signature="23667:24553" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ofApp.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3180">
+          <caret line="212" column="20" lean-forward="false" selection-start-line="212" selection-start-column="20" selection-end-line="212" selection-end-column="20" />
+          <folding>
+            <element signature="e#14#37#0" expanded="true" />
+            <marker date="1531087914304" expanded="true" signature="4160:6698" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ofApp.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="123" column="41" lean-forward="false" selection-start-line="123" selection-start-column="41" selection-end-line="123" selection-end-column="41" />
+          <folding>
+            <element signature="e#8818#8875#0" expanded="true" />
+            <element signature="e#9039#9091#0" expanded="true" />
+            <element signature="e#25690#26424#0" expanded="true" />
+            <element signature="e#37553#37607#0" expanded="true" />
+            <element signature="e#42235#43014#0" expanded="true" />
+            <element signature="e#50127#52012#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

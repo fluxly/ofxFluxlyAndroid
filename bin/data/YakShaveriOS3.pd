@@ -1572,7 +1572,6 @@
 #X obj 820 62 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 650 31 adc~ 1;
-#X obj 656 59 *~ 0.5;
 #X connect 0 0 8 0;
 #X connect 1 0 7 0;
 #X connect 2 0 3 0;
@@ -1617,8 +1616,7 @@
 #X connect 50 0 44 0;
 #X connect 54 0 23 0;
 #X connect 55 0 52 0;
-#X connect 55 0 56 0;
-#X connect 56 0 20 0;
+#X connect 55 0 20 0;
 #X restore 48 72 pd input-stage;
 #X msg 69 423 1;
 #X msg 103 424 1;

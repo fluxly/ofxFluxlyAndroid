@@ -3,6 +3,7 @@
 	<fluxlyMajorVersion>1</fluxlyMajorVersion>
 	<fluxlyMinorVersion>0</fluxlyMinorVersion>
 	<backgroundId>7</backgroundId>
+    	<savedScreenW>320</savedScreenW>
 	    </settings>
 	<circles>
 		<circle>
@@ -11,7 +12,7 @@
 			<instrument>0</instrument>
 		    <x>100</x>
 		    <y>100</y>
-			<w>100</w>
+			<w>150</w>
             <dampingX>0</dampingX>
             <dampingY>0</dampingY>
 			<rotation>90</rotation>
@@ -30,7 +31,7 @@
 			<instrument>1</instrument>
 		    <x>200</x>
 		    <y>200</y>
-			<w>100</w>
+			<w>150</w>
             <dampingX>0</dampingX>
             <dampingY>0</dampingY>
 			<rotation>90</rotation>
@@ -49,7 +50,7 @@
 			<instrument>2</instrument>
 		    <x>300</x>
 		    <y>300</y>
-			<w>100</w>
+			<w>150</w>
             <dampingX>0</dampingX>
             <dampingY>0</dampingY>
 			<rotation>90</rotation>
@@ -68,7 +69,7 @@
 			<instrument>3</instrument>
 		    <x>300</x>
 		    <y>100</y>
-			<w>100</w>
+			<w>150</w>
             <dampingX>0</dampingX>
             <dampingY>0</dampingY>
 			<rotation>90</rotation>
@@ -97,7 +98,7 @@
             <connection4>-1</connection4>
             <x>173</x>
             <y>452</y>
-            <w>100</w>
+            <w>150</w>
             <rotation>5241.000000000</rotation>
         </circle>
 	</circles>

@@ -6,8 +6,8 @@
 #include "PdExternals.h"
 #include "ofxPd.h"
 #include "ofxXmlSettings.h"
+#include "ofxAndroidUtils.h"
 #include "ofxAndroidSoundStream.h"
-#include "ofxAndroidLogChannel.h"
 
 //#define IOS
 #define ANDROID
@@ -19,32 +19,19 @@
 #define FLUXLY_MAJOR_VERSION (1)
 #define FLUXLY_MINOR_VERSION (0)
 
-//  Determine device
-#ifdef IOS
-#define IS_IPAD (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
-#define IS_IPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
-#define IS_IPHONE_5 (IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 568)
-#define IS_IPHONE_6 (IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 667)
-#define IS_IPHONE_6_PLUS (IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 736)
-#define IS_IPHONE_X (IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 812)
-
-// Defines for translating iPhone positioning to iPad
-// 480 point wide -> 1024 points wide
-// = 2.13 multiplier
-#define IPAD_BOT_TRIM (45)
-#endif
-
 // States
 #define PAUSE (0)
 #define RUN (1)
 #define CHOOSE_LOOP (2)
 
 // Scenes
-#define MENU_SCENE (0)
-#define GAME_SCENE (1)
-#define RECORDING_SCENE (2)
-#define SAVE_EXIT (3)
-#define SELECT_SAMPLE_SCENE (4)
+#define SPLASHSCREEN (0)
+#define MENU_SCENE (1)
+#define GAME_SCENE (2)
+#define RECORDING_SCENE (3)
+#define SAVE_EXIT_PART_1 (4)
+#define SAVE_EXIT_PART_2 (5)
+#define SELECT_SAMPLE_SCENE (6)
 
 #define PHONE (0)
 #define TABLET (1)
@@ -104,6 +91,7 @@ class ofApp : public ofxAndroidApp, public PdReceiver, public PdMidiReceiver {
 	
   public:
         void setup();
+		void setupPostSplashscreen();
         void update();
         void draw();
         void exit();
@@ -145,16 +133,17 @@ class ofApp : public ofxAndroidApp, public PdReceiver, public PdMidiReceiver {
 
     int inputDeviceID, outputDeviceID;
     int numInputChannels, numOutputChannels;
-    int sampleRate, ticksPerBuffer;
+    int ticksPerBuffer;
     bool shouldReinitAudio;
+	
+	//ofAppAndroidWindow theWindow;
     ofxPd pd;
     ofxXmlSettings globalSettings;
     ofxXmlSettings sampleList;
 
-    ofxAndroidLogChannel logChannel;
-    
-    ofSoundStream stream;
-	
+    //ofSoundStream stream;
+	ofxAndroidSoundStream stream;
+
     vector<Patch> instances;
     
     // audio callbacks
@@ -172,16 +161,20 @@ class ofApp : public ofxAndroidApp, public PdReceiver, public PdMidiReceiver {
     int currentHelpState = 0;
     int helpTimer2 = 0;
     int currentHelpState2 = 0;
+	int fps = 0;
+	int tick = 0;
+	string fpsString;
 
     int device = PHONE;
     float deviceScale = 1.0;
     int nIcons = 6;
     int nCircles;
-    int scene = MENU_SCENE;
+    int scene = SPLASHSCREEN;
     int gameState = 0;
     bool firstRun = true;
     bool helpOn = true;
     bool helpOn2 = true;
+	bool totallySetUp = false;
     
     int selected = -1;
     int midiChan;
@@ -223,7 +216,7 @@ class ofApp : public ofxAndroidApp, public PdReceiver, public PdMidiReceiver {
     int numFiles;
     int currentGame = -1;   // index in menu
     
-    int touchMargin = 2;
+    int touchMargin = 5;
     
     ofTrueTypeFont helpFont;
     string eventString;
@@ -247,6 +240,7 @@ class ofApp : public ofxAndroidApp, public PdReceiver, public PdMidiReceiver {
     int tempId2;
     int maxJoints = 3;
     int backgroundId = 0;
+	int savedScreenW;
     bool applyDamping = true;
     
     ofImage background[8];
@@ -254,6 +248,7 @@ class ofApp : public ofxAndroidApp, public PdReceiver, public PdMidiReceiver {
     ofImage pauseMotion;
     ofImage screenshot;
     ofImage exitButton;
+    ofImage exitButtonGlow;
     ofImage dampOnOff;
     ofImage dampOnOffGlow;
     ofImage saving;

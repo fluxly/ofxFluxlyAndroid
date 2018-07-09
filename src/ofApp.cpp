@@ -6,30 +6,42 @@ void ofApp::setup(){
     ofSetLogLevel(OF_LOG_VERBOSE);       // OF_LOG_VERBOSE for testing, OF_LOG_SILENT for production
     ofSetLogLevel("Pd", OF_LOG_SILENT);  // see verbose info from Pd
     
-
     // Set screen height and width
     //screenH = [[UIScreen mainScreen] bounds].size.height;
     //screenW = [[UIScreen mainScreen] bounds].size.width;
 	screenH = ofGetHeight();
 	screenW = ofGetWidth();
-
-    // For retina support
-    //retinaScaling = [UIScreen mainScreen].scale;
-	retinaScaling = 2.0;
-    //screenW *= retinaScaling;
-    //screenH *= retinaScaling;
-
+	ofLog(OF_LOG_VERBOSE,  "W, H %i, %i:", screenW, screenH);
+	
+	retinaScaling = 1.0;
+	device = PHONE;
+			
+	// Determine whether tablet or phone and retina display
+    if (((screenH >=1920) && (screenW > 1080)) || ((screenH == 1280) && (screenW == 800))) {
+		device = TABLET;
+	}
+	
+    if ((screenH >=1800) && (screenW == 1080)) {
+		device = PHONE;
+		retinaScaling = 2.0;
+	}
+	
+    if ((screenH == 1280) && (screenW == 720)) {
+		device = PHONE;
+		retinaScaling = 1.5;
+	}
+	
+    if (screenH < 1280) {
+		//retinaScaling = .75;
+	}
     
-    documentsDir = "";
+	ofLog(OF_LOG_VERBOSE,  "DEVICE %i", device);
+	
+    documentsDir = "";    // apparently openframeworks handles this?
     
     worldW = screenW;
     worldH = screenH;
-   // __android_log_print(ANDROID_LOG_INFO,  "W, H %i, %i:",screenW, screenH);
 
-    //if (screenW > 800) {   /// FIXME
-    //device = TABLET;
-    //}
-    
     if (device == PHONE) {
         if (retinaScaling > 1) {
             helpFont.load("slkscr.ttf", PHONE_RETINA_FONT_SIZE);
@@ -70,12 +82,11 @@ void ofApp::setup(){
     ofSetFrameRate(60);
     //ofEnableAntiAliasing();
     
-    ofSetHexColor(0xFFFFFF);
-    ofSetRectMode(OF_RECTMODE_CENTER);
-    helpFont.drawString("fluxly.com", screenW/2 - helpFont.stringWidth("fluxly.com")/2, screenH/2) ;
-    // on iOS: [ofxiPhoneGetGLView() finishRender];
-    //self->window->renderer()->finishRender();
+    
+}
 
+void ofApp::setupPostSplashscreen() {
+    ofLog(OF_LOG_VERBOSE, "Post splashscreen");
     // On first run, check if settings files are in documents directory; if not, copy from the bundle
     dir.open(documentsDir);
     int numFiles = dir.listDir();
@@ -94,23 +105,30 @@ void ofApp::setup(){
         file.copyFromTo("sampleSettings.xml", documentsDir+"sampleSettings.xml", true, true);
         for (int i=0; i < SCENES_IN_BUNDLE; i++) {
             if (device == TABLET) {
+				ofLog(OF_LOG_VERBOSE,  "TABLET");
                 file.copyFromTo("game"+to_string(i)+"-ipad.xml", documentsDir+"game"+to_string(i)+".xml", true, true);
                 file.copyFromTo("game"+to_string(i)+"-ipad.png", documentsDir+"game"+to_string(i)+".png", true, true);
             } else {
-                file.copyFromTo("game"+to_string(i)+".xml", documentsDir+"game"+to_string(i)+".xml", true, true);
-                file.copyFromTo("game"+to_string(i)+".png", documentsDir+"game"+to_string(i)+".png", true, true);
+              //  file.copyFromTo("game"+to_string(i)+".xml", documentsDir+"game"+to_string(i)+".xml", true, true);
+              //  file.copyFromTo("game"+to_string(i)+".png", documentsDir+"game"+to_string(i)+".png", true, true);
             }
         }
     }
     
     // try to set the preferred iOS sample rate, but get the actual sample rate
     // being used by the AVSession since newer devices like the iPhone 6S only
-    // want specific values (ie 48000 instead of 44100)
-    float sampleRate = 48000;
-
+    // want specific values (ie 48000
+    // instead of 44100)
+    //int sampleRate = stream.getSampleRate();
+	int sampleRate = 48000;
+	pd.sendFloat("sampleRate", sampleRate);
+	int bufferSize = stream.getMinInBufferSize(sampleRate, 1);
+     ofLog(OF_LOG_VERBOSE,  "Sample Rate %i", sampleRate);
+	 ofLog(OF_LOG_VERBOSE,  "Buffer size %i", bufferSize);
        // the number if libpd ticks per buffer,
        // used to compute the audio buffer len: tpb * blocksize (always 64)
-       int ticksPerBuffer = 8; // 8 * 64 = buffer len of 512
+       int ticksPerBuffer = bufferSize / 64; // 8 * 64 = buffer len of 512
+        ofLog(OF_LOG_VERBOSE,  "Ticks %i", ticksPerBuffer);
 
        // setup OF sound stream using the current *actual* samplerate
        //stream = new ofxAndroidSoundStream();
@@ -123,14 +141,12 @@ void ofApp::setup(){
        settings.numInputChannels = 1;
        settings.setOutListener(this);
        settings.setInListener(this);
-       settings.numBuffers = 3;
+       settings.numBuffers = 6;
        settings.sampleRate = sampleRate;
        settings.bufferSize = ofxPd::blockSize()*ticksPerBuffer;
        stream.setup(settings);
        stream.setOutput(this);
        stream.setInput(this);
-   	   //stream.setup(this, 2, 1, sampleRate, ofxPd::blockSize()*ticksPerBuffer, 3);
-       //stream.start();
     
     // setup Pd
     //
@@ -172,7 +188,7 @@ void ofApp::setup(){
     ofSeedRandom();
     // audio processing on
     pd.start();
-    pd.openPatch("YakShaveriOS3.pd");
+    pd.openPatch("YakShaverAndroid.pd");
     
     // Load all images
     for (int i=0; i<8; i++) {
@@ -182,6 +198,8 @@ void ofApp::setup(){
     //toolbar.load("toolbar.png");
     exitButton.load("navMenuExit.png");
     exitButton.getTexture().setTextureMinMagFilter(GL_NEAREST,GL_NEAREST);
+    exitButtonGlow.load("navMenuExitGlow.png");
+    exitButtonGlow.getTexture().setTextureMinMagFilter(GL_NEAREST,GL_NEAREST);
     helpButton.load("helpButton.png");
     helpButton.getTexture().setTextureMinMagFilter(GL_NEAREST,GL_NEAREST);
     helpButtonGlow.load("helpButtonGlow.png");
@@ -204,7 +222,6 @@ void ofApp::setup(){
     box2d.registerGrabbing();
     
     mainMenu = new SlidingMenu();
-    
     mainMenu->menuTitleW = screenW;
     
     if (device==TABLET) {
@@ -221,7 +238,7 @@ void ofApp::setup(){
 #endif
     }
     
-    appIconW = 180*retinaScaling;
+    appIconW = 150*retinaScaling;
     appIconX = screenW/2;
     
     if (device==TABLET) {
@@ -231,7 +248,6 @@ void ofApp::setup(){
     }
     
     mainMenu->initMenu(MAIN_MENU, 0, 0, screenW, screenH);
-    
 
     sampleMenu = new SlidingMenu();
     sampleMenu->retinaScale = retinaScaling;
@@ -248,15 +264,13 @@ void ofApp::setup(){
     
     playRecordConsole = new SampleConsole();
     playRecordConsole->retinaScale = retinaScaling;
-    if (device==TABLET) {
-        playRecordConsole->soundWaveH *= 2;
-    }
+
     playRecordConsole->init(screenW, consoleH);
     
     // Do some scaling for tablet version
     if (device == TABLET) {
         deviceScale = 1.5;
-        playRecordConsole->thumbW *= 2;
+        playRecordConsole->thumbW *= 1.5;
     }
     
     dampOnOff.load("dampOnOff.png");
@@ -282,7 +296,7 @@ void ofApp::loadGame(int gameId) {
     if (gameSettings.loadFile(documentsDir+mainMenu->menuItems[gameId]->link)) {
         string menuItemName = gameSettings.getValue("settings:menuItem", "defaultScene");
         backgroundId = gameSettings.getValue("settings:settings:backgroundId", 0);
-        
+        savedScreenW = gameSettings.getValue("settings:settings:savedScreenW", 0);
         gameSettings.pushTag("settings");
         gameSettings.pushTag("circles");
         nCircles = gameSettings.getNumTags("circle");
@@ -310,12 +324,18 @@ void ofApp::loadGame(int gameId) {
             c->w = gameSettings.getValue("w", 0);
             c->displayW = c->w;
             c->retinaScale = retinaScaling;
-            
+
+            ofLog(OF_LOG_VERBOSE, "savedScreenW: %i", savedScreenW);
+			// Correct for first run possible mismatch of screen dimensions
+			if (savedScreenW != screenW) {
+			    c->x *= (float)screenW/((float)savedScreenW*retinaScaling);
+			    c->y *= (float)screenW/((float)savedScreenW*retinaScaling);
+            }
+			
             // Make some corrections for tablets
             if (device == TABLET) {
-                c->soundWaveStep = 4;
                 c->soundWaveH = 100;
-                c->soundWaveStart = -1024;
+                c->soundWaveStart = -screenH;
                 c->maxAnimationCount = 100;
                 c->animationStep = 12;
                 c->displayW *= deviceScale;
@@ -325,12 +345,14 @@ void ofApp::loadGame(int gameId) {
             c->x = c->x*retinaScaling;
             c->y = c->y*retinaScaling;
             c->w = c->w*retinaScaling;
-            c->soundWaveStep *= retinaScaling;
+			c->soundWaveStep = 4;
+			c->soundWaveStart = -screenH;
+            c->soundWaveStep *= (screenH/1024.0)*retinaScaling;
             c->soundWaveH *= retinaScaling;
             c->animationStep *=retinaScaling;
             c->displayW *= retinaScaling;
             
-            c->setPhysics(1/deviceScale/retinaScaling, 1, 1);    // density, bounce, friction
+            c->setPhysics(3+10*device, 1, 1);    // 2*retinaScaling density, bounce, friction
             c->setup(box2d.getWorld(), c->x, c->y, (c->w/2)*deviceScale);
             c->setRotation(gameSettings.getValue("rotation", 0));
             BoxData * bd = new BoxData();
@@ -384,8 +406,7 @@ static bool shouldRemoveCircle(shared_ptr<FluxlyCircle>shape) {
 void ofApp::update() {
     switch (scene) {
         case MENU_SCENE:
-            mainMenu->updateScrolling();
-            
+            if (totallySetUp) mainMenu->updateScrolling();
             break;
         case GAME_SCENE:
             if (gameState == RUN) {
@@ -443,7 +464,7 @@ void ofApp::update() {
                         pd.sendFloat("toggle"+to_string(circles[i].get()->instrument), 0.0);
                         circles[i].get()->sendOff = false;
                     }
-                    //if (circles[i].get()->type < 144) pd.readArray("scope"+to_string(circles[i].get()->instrument), circles[i].get()->scopeArray);
+                    if (circles[i].get()->type < 144) pd.readArray("scope"+to_string(circles[i].get()->instrument), circles[i].get()->scopeArray);
                 }
                 
                 if (connections.size() > 0) {
@@ -488,15 +509,36 @@ void ofApp::update() {
             if (playRecordConsole->recording) pd.readArray("inputScope", playRecordConsole->scopeArray);
             break;
     }
-    if ((helpOn) || (helpOn2)) {
+    if (((helpOn) || (helpOn2)) &&  (scene !=SPLASHSCREEN)) {
         helpLayerScript();     // update the help layer
     }
+	tick++;
+	
+	if ((tick%60) == 0) {
+		fps = ofGetFrameRate();     // check once a second
+        fpsString = std::to_string(fps);
+	}
 }
 
 //--------------------------------------------------------------
 void ofApp::draw() {
     switch (scene) {
+		case SPLASHSCREEN:
+            ofSetHexColor(0x000000);
+            ofSetRectMode(OF_RECTMODE_CORNER);
+            ofDrawRectangle(0, 0, screenW, screenH);
+	        ofSetHexColor(0xFFFFFF);
+	        ofSetRectMode(OF_RECTMODE_CENTER);
+	        helpFont.drawString("fluxly.com", screenW/2 - helpFont.stringWidth("fluxly.com")/2, screenH/2);
+			totallySetUp = false;
+			scene = MENU_SCENE;
+			break;
         case MENU_SCENE:
+		    if (!totallySetUp) {
+				ofLog(OF_LOG_VERBOSE, "Totally Not Set Up");
+			    setupPostSplashscreen();
+				totallySetUp = true;
+		    }
             mainMenu->draw();
             mainMenu->drawBorder(currentGame);
             break;
@@ -506,15 +548,16 @@ void ofApp::draw() {
             background[backgroundId].draw(0, 0, screenW, screenH);
             ofSetRectMode(OF_RECTMODE_CENTER);
 
-            for (int i=0; i<circles.size(); i++) {
-                    circles[i].get()->drawAnimation(1);
+            if (fps > 45) {
+                for (int i=0; i<circles.size(); i++) {
+                    circles[i].get()->drawAnimation(2);
+                }
+			}
+            
+          /*  for (int i=0; i<circles.size(); i++) {
+                    circles[i].get()->drawSoundWave(2);
             }
-            //if (device == PHONE) {
-                
-            for (int i=0; i<circles.size(); i++) {
-                    circles[i].get()->drawSoundWave(1);
-            }
-           // }
+           */
             ofSetRectMode(OF_RECTMODE_CENTER);
             ofSetHexColor(0xFFFFFF);
             
@@ -538,7 +581,7 @@ void ofApp::draw() {
             } else {
                 helpButtonGlow.draw(controlX[HELP_GAME], controlY[HELP_GAME], controlW[HELP_GAME], controlW[HELP_GAME]);
             }
-            //helpFont.drawString(ofToString(ofGetFrameRate()), 10,20);
+            helpFont.drawString(fpsString, screenW-50, 50);
             break;
         case SELECT_SAMPLE_SCENE:
             ofSetHexColor(0xFFFFFF);
@@ -567,6 +610,7 @@ void ofApp::draw() {
             } else {
                 helpButtonGlow.draw(controlX[HELP_SAMPLE_SELECT], controlY[HELP_SAMPLE_SELECT], controlW[HELP_SAMPLE_SELECT], controlW[HELP_SAMPLE_SELECT]);
             }*/
+
             
 #ifdef FLUXLY_FREE
             icon.draw(appIconX, appIconY, appIconW, appIconW);
@@ -582,13 +626,13 @@ void ofApp::draw() {
                                 appIconY + appIconW/2 + helpTextHeight*3 ) ;
 #endif
             break;
-        case SAVE_EXIT:
+        case SAVE_EXIT_PART_1:
             ofSetHexColor(0xFFFFFF);
             ofSetRectMode(OF_RECTMODE_CORNER);
             background[backgroundId].draw(0, 0, worldW, worldH);
             ofSetRectMode(OF_RECTMODE_CENTER);
             for (int i=0; i<circles.size(); i++) {
-                circles[i].get()->drawSoundWave(2);
+                circles[i].get()->drawSoundWave(3);
             }
             for (int i=0; i<circles.size(); i++) {
                 circles[i].get()->draw();
@@ -599,6 +643,10 @@ void ofApp::draw() {
             }
             screenshot.grabScreen(0, 0, screenW, screenH);
             saving.draw(screenW/2, screenH/2);
+			scene = SAVE_EXIT_PART_2;
+			break;
+		case SAVE_EXIT_PART_2:
+			//finishRender();
             screenshot.save( mainMenu->menuItems[currentGame]->filename);
             //ofLog(OF_LOG_VERBOSE, "Screenshot");
             saveGame();
@@ -624,6 +672,7 @@ void ofApp::saveGame() {
     outputSettings.setValue("settings:fluxlyMajorVersion", FLUXLY_MAJOR_VERSION);
     outputSettings.setValue("settings:fluxlyMinorVersion", FLUXLY_MINOR_VERSION);
     outputSettings.setValue("settings:backgroundId", backgroundId);
+    outputSettings.setValue("settings:savedScreenW", screenW);
     outputSettings.addTag("circles");
     outputSettings.pushTag("circles");
     for (int i = 0; i < nCircles; i++){
@@ -812,10 +861,10 @@ void ofApp::touchUp(ofTouchEventArgs & touch){
         // MENU SCENE: Touch up after moving
         if ((scene == MENU_SCENE) && (mainMenu->scrollingState == 1) && (startTouchId == touch.id)) {
             // If moved sufficiently, switch to next or previous state
-            if ((int)touch.y < startTouchY-150) {
+            if ((int)touch.y < startTouchY-100) {
                 mainMenu->changePaneState(-1);
             } else {
-                if ((int)touch.y > startTouchY+150) {
+                if ((int)touch.y > startTouchY+100) {
                     mainMenu->changePaneState(1);
                 }
             }
@@ -894,7 +943,7 @@ void ofApp::touchUp(ofTouchEventArgs & touch){
             //ofLog(OF_LOG_VERBOSE, "Checking exit: %i, %i, %f, %f", startTouchX, startTouchY, touch.x, touch.y);
             // Check to see if exit pushed
             if (controlInBounds(EXIT_GAME, touch.x, touch.y)) {
-                scene = SAVE_EXIT;
+                scene = SAVE_EXIT_PART_1;
                 startTouchId = -1;
                 startTouchX = 0;
                 startTouchY = 0;
@@ -950,6 +999,7 @@ void ofApp::touchUp(ofTouchEventArgs & touch){
 				// FIXME: figure out how to link to apps in the store
                 //[[UIApplication sharedApplication]
                 // openURL:[NSURL URLWithString:@"itms-apps://itunes.apple.com/app/fluxly/id1376844813?ls=1&mt=8"]];
+				ofxAndroidLaunchBrowser("https://fluxly.com");
             }
 #endif
             int button = playRecordConsole->checkConsoleButtons(touch.x, touch.y);
@@ -1000,6 +1050,7 @@ void ofApp::touchDoubleTap(ofTouchEventArgs & touch) {
         }
         if (retval > -1) {
             scene = SELECT_SAMPLE_SCENE;
+
             pd.sendFloat("masterVolume", 0.0);
             playRecordConsole->playing = false;
             playRecordConsole->recording = false;
@@ -1188,8 +1239,8 @@ void ofApp::helpLayerScript() {
         case (MENU_SCENE) :
         case (SELECT_SAMPLE_SCENE) :
             currentHelpState2 = -1;
-            /*helpTimer2 = (helpTimer2 + 1) % (THREE_SECONDS * 4);
-            currentHelpState2 = helpTimer2 / THREE_SECONDS;
+            /*helpTimer2 = (helpTimer2 + 1) % (TWO_SECONDS * 4);
+            currentHelpState2 = helpTimer2 / TWO_SECONDS;
             if (currentHelpState2 == 3) {
                 helpTimer2 = 0;
                 currentHelpState2 = -1;
@@ -1197,13 +1248,9 @@ void ofApp::helpLayerScript() {
             }*/
             //ofLog(OF_LOG_VERBOSE, "timer %i", currentHelpState);
             break;
-        case (SAVE_EXIT):
-            //helpTimer = 0;
-            //currentHelpState = -1;
-            break;
         case (GAME_SCENE) :
-            helpTimer = (helpTimer + 1) % (THREE_SECONDS * 19);
-            currentHelpState = helpTimer / THREE_SECONDS;
+            helpTimer = (helpTimer + 1) % (TWO_SECONDS * 19);
+            currentHelpState = helpTimer / TWO_SECONDS;
             if (currentHelpState == 18) {
                 helpTimer = 0;
                 currentHelpState = -1;
@@ -1260,12 +1307,12 @@ void ofApp::helpLayerDisplay(int n) {
                 }
                 break;
             case 9:
-                drawHelpString("(The white one is", circles[circles.size()-1]->x, circles[circles.size()-1]->y, yOffset, 0);
-                drawHelpString("a reverb effect)", circles[circles.size()-1]->x, circles[circles.size()-1]->y, yOffset, 1);
-                break;
+                //drawHelpString("(The white one is", circles[circles.size()-1]->x, circles[circles.size()-1]->y, yOffset, 0);
+                //drawHelpString("a reverb effect)", circles[circles.size()-1]->x, circles[circles.size()-1]->y, yOffset, 1);
+                //break;
             case 10:
             case 11:
-                arrowLeft.draw(45*retinaScaling, screenH-20*retinaScaling, 20*retinaScaling, 22*retinaScaling );
+                arrowLeft.draw(50*retinaScaling, screenH-20*retinaScaling, 20*retinaScaling, 22*retinaScaling );
                 x1 = 4*retinaScaling+(helpFont.stringWidth("them to move around"))/2;
                 y1 = screenH-25*retinaScaling-helpTextHeight*2;
                 drawHelpString("This button allows", x1, y1, 0, 0);
@@ -1273,7 +1320,7 @@ void ofApp::helpLayerDisplay(int n) {
                 break;
             case 12:
             case 13:
-                arrow.draw(screenW-45*retinaScaling, screenH-20*retinaScaling, 20*retinaScaling, 22*retinaScaling );
+                arrow.draw(screenW-50*retinaScaling, screenH-20*retinaScaling, 20*retinaScaling, 22*retinaScaling );
                 x1 = screenW-(helpFont.stringWidth("(don't leave yet)"))/2-8*retinaScaling;
                 y1 = screenH-25*retinaScaling-helpTextHeight*3;
                 drawHelpString("This button", x1, y1, 0, 0);
